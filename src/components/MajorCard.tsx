@@ -142,8 +142,8 @@ export default function MajorCard({ rec, selected, onToggle }: Props) {
           <div className="grid grid-cols-2 gap-3">
             <div className="bg-white rounded-lg p-3">
               <h4 className="font-medium text-gray-700 mb-1 text-xs">近年国家线</h4>
-              <p className="text-xs text-gray-500">{major.nationalLine2024}</p>
               <p className="text-xs text-gray-500">{major.nationalLine2025}</p>
+              <p className="text-xs text-gray-500">{major.nationalLine2026}</p>
             </div>
             <div className="bg-white rounded-lg p-3">
               <h4 className="font-medium text-gray-700 mb-1 text-xs">开设院校统计</h4>

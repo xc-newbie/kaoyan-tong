@@ -87,6 +87,9 @@ function calcCategoryBonus(
     education: ['教育学'],
     medical: ['医学'],
     agriculture: ['农学'],
+    philosophy: ['哲学'],
+    history: ['历史学'],
+    art: ['艺术学'],
   };
 
   const expected = catMap[cat] || [];
@@ -101,6 +104,18 @@ function calcCategoryBonus(
   if (cat === 'management' && majorCat === '经济学') return { score: 3 };
   if (cat === 'economics' && majorCat === '管理学') return { score: 3 };
   if (cat === 'liberalArts' && majorCat === '法学') return { score: 2 };
+  if (cat === 'liberalArts' && majorCat === '历史学') return { score: 3 };
+  if (cat === 'liberalArts' && majorCat === '艺术学') return { score: 2 };
+  if (cat === 'history' && majorCat === '文学') return { score: 3 };
+  if (cat === 'history' && majorCat === '哲学') return { score: 3 };
+  if (cat === 'history' && majorCat === '艺术学') return { score: 2 };
+  if (cat === 'philosophy' && majorCat === '文学') return { score: 2 };
+  if (cat === 'philosophy' && majorCat === '历史学') return { score: 3 };
+  if (cat === 'philosophy' && majorCat === '教育学') return { score: 1 };
+  if (cat === 'art' && majorCat === '文学') return { score: 2 };
+  if (cat === 'art' && majorCat === '教育学') return { score: 2 };
+  if (cat === 'education' && majorCat === '文学') return { score: 2 };
+  if (cat === 'education' && majorCat === '哲学') return { score: 1 };
 
   return { score: -3 };
 }
@@ -448,29 +463,72 @@ function calcMathFit(
       (basic.mathBasis.probability || 0)) /
     3;
 
-  // 检测该专业是否使用199管理类联考（初等数学，无高等数学）
-  const is199Major = major.examSubjects.math.includes('199') ||
-    major.examSubjects.math.includes('管理类联考') ||
-    major.tags.some(t => t === '管理类联考');
+  const mathStr = major.examSubjects.math;
 
-  // 199联考专业：数学门槛极低，初等数学即可，不扣分反而加分
-  if (is199Major) {
+  // 检测该专业是否使用199管理类联考（初等数学，无高等数学）
+  const is199 = mathStr.includes('199') || mathStr.includes('管理类联考') ||
+    major.tags.some(t => t === '管理类联考');
+  if (is199) {
     return { score: 3, reason: '该专业考199管理类联考，数学为初等难度，无高等数学门槛' };
   }
 
+  // 396经济类联考：数学极简单（选择题+逻辑推理），无证明题
+  const is396 = mathStr.includes('396') || mathStr.includes('经济类联考') ||
+    major.tags.some(t => t.includes('396'));
+  if (is396) {
+    if (avgMath >= 4) return { score: 5, reason: '你的数学能力远超396要求，该科可轻松拿高分' };
+    if (avgMath >= 3) return { score: 3, reason: '396经济联考数学难度较低，你的数学基础足够应对' };
+    if (avgMath >= 2) return { score: 1, reason: '396经济联考只考选择题和逻辑推理，数学门槛较低' };
+    return { score: -2, reason: '396联考虽简单但仍需一定数学基础，建议强化逻辑部分' };
+  }
+
   // 不考数学的专业
-  if (major.examSubjects.math.includes('不考数学')) {
+  if (mathStr.includes('不考数学')) {
     return { score: 0, reason: '该专业不考数学，可聚焦专业课复习' };
   }
 
-  if (major.competitionHeat >= 5 && avgMath < 2.5) {
-    return { score: -10, reason: '该专业竞争激烈，建议先强化数学基础' };
+  // 检测数学要求等级
+  const isMath1 = mathStr.includes('数学一') || mathStr.includes('数一');
+  const isMath2 = mathStr.includes('数学二') || mathStr.includes('数二');
+  const isMath3 = mathStr.includes('数学三') || mathStr.includes('数三');
+
+  // 数学一：最难的数学考试（高数56%+线代22%+概率22%），工学核心
+  if (isMath1) {
+    if (avgMath >= 4) return { score: 8, reason: '数学基础扎实，应对数学一有优势' };
+    if (avgMath >= 3.5) return { score: 5, reason: '数学基础较好，数学一虽有难度但可以应对' };
+    if (avgMath >= 3) return { score: 0, reason: '数学一难度较大，目前基础处于中等水平，需要重点加强' };
+    if (avgMath >= 2) return { score: -6, reason: '数学一是考研数学中最难的，当前基础差距较大，建议重点复习' };
+    return { score: -12, reason: '数学一要求高数/线代/概率论全面掌握，当前基础薄弱，备考压力大' };
   }
-  if (avgMath >= 3.5 && major.techLevel >= 4) {
-    return { score: 8, reason: '数学基础扎实，能够胜任该专业对数学的要求' };
+
+  // 数学二：中等难度（高数78%+线代22%，无概率论），部分工科和农学
+  if (isMath2) {
+    if (avgMath >= 3.5) return { score: 6, reason: '数学基础扎实，数学二不考概率论，你的优势明显' };
+    if (avgMath >= 3) return { score: 3, reason: '数学二难度适中，不考概率论降低了备考压力' };
+    if (avgMath >= 2) return { score: -2, reason: '数学二虽比数学一简单，但仍需扎实的高数和线代基础' };
+    return { score: -8, reason: '数学二需要高数和线代基础，建议先夯实这两门' };
   }
-  if (avgMath <= 1.5 && major.techLevel >= 4) {
-    return { score: -10, reason: '该专业对数学要求较高，目前数学基础差距较大' };
+
+  // 数学三：经济学/管理学数学（高数56%+线代22%+概率22%，侧重应用）
+  if (isMath3) {
+    if (avgMath >= 4) return { score: 7, reason: '数学基础优秀，数学三侧重应用，你可轻松应对' };
+    if (avgMath >= 3.5) return { score: 5, reason: '数学基础较好，数学三的难度对你来说不会成为障碍' };
+    if (avgMath >= 3) return { score: 2, reason: '数学三侧重经济应用，难度适中，你的基础基本够用' };
+    if (avgMath >= 2) return { score: -3, reason: '数学三需一定数学基础，目前水平需要额外投入时间' };
+    return { score: -8, reason: '数学三考查高数/线代/概率论，当前基础较弱，建议系统复习' };
+  }
+
+  // 未明确标注数学类型但有数学要求的专业（根据techLevel和heat综合判断）
+  if (!mathStr.includes('不考数学') && mathStr.length > 3) {
+    if (major.competitionHeat >= 5 && avgMath < 2.5) {
+      return { score: -10, reason: '该专业竞争激烈，建议先强化数学基础' };
+    }
+    if (avgMath >= 3.5 && major.techLevel >= 4) {
+      return { score: 8, reason: '数学基础扎实，能够胜任该专业对数学的要求' };
+    }
+    if (avgMath <= 1.5 && major.techLevel >= 4) {
+      return { score: -10, reason: '该专业对数学要求较高，目前数学基础差距较大' };
+    }
   }
 
   return { score: 0, reason: null };

@@ -1,7 +1,8 @@
 import type { UserProfile, UniversityRecommendation, RecomTier } from '../types';
 import { universities } from '../data/universities';
 import { majors } from '../data/majors';
-import { getProgramDetail } from '../data/programDetails';
+import { getOrGenerateProgramDetail } from './programDataGenerator';
+import { enrichUniversityMajorIds } from './programDataGenerator';
 
 export function getUniversityRecommendations(
   profile: Partial<UserProfile>,
@@ -12,8 +13,16 @@ export function getUniversityRecommendations(
 
   const results: UniversityRecommendation[] = [];
 
+  // Pre-compute enriched majorIds for all universities once
+  const enrichedIdsCache = new Map<string, string[]>();
+
   for (const majorId of selectedMajorIds) {
-    const candidateUnis = universities.filter((u) => u.majorIds.includes(majorId));
+    const candidateUnis = universities.filter((u) => {
+      if (!enrichedIdsCache.has(u.id)) {
+        enrichedIdsCache.set(u.id, enrichUniversityMajorIds(u));
+      }
+      return enrichedIdsCache.get(u.id)!.includes(majorId);
+    });
 
     for (const uni of candidateUnis) {
       const diffScore = uni.admissionScore[majorId] || 50;
@@ -43,9 +52,9 @@ export function getUniversityRecommendations(
       // 模拟近三年复试线
       const baseScore = 250 + diffScore * 1.2;
       const pastScores = [
-        { year: 2025, score: Math.round(baseScore + Math.random() * 15 - 5) },
-        { year: 2024, score: Math.round(baseScore + Math.random() * 15 - 10) },
-        { year: 2023, score: Math.round(baseScore + Math.random() * 15 - 8) },
+        { year: 2026, score: Math.round(baseScore + Math.random() * 15 - 5) },
+        { year: 2025, score: Math.round(baseScore + Math.random() * 15 - 10) },
+        { year: 2024, score: Math.round(baseScore + Math.random() * 15 - 8) },
       ];
 
       results.push({
@@ -57,7 +66,7 @@ export function getUniversityRecommendations(
         reason,
         pastScores,
         reportRatio: estimateReportRatio(diffScore),
-        programDetail: getProgramDetail(uni.id, majorId),
+        programDetail: getOrGenerateProgramDetail(uni, majorId),
       });
     }
   }

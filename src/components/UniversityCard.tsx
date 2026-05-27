@@ -235,16 +235,16 @@ export default function UniversityCard({ rec }: Props) {
                     {/* 分数线 */}
                     <div className="grid grid-cols-3 gap-2">
                       <div className="bg-indigo-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">2026复试线</div>
+                        <div className="text-lg font-bold text-indigo-600">{programDetail.reexamScore2026}</div>
+                      </div>
+                      <div className="bg-indigo-50 rounded-lg p-2 text-center">
                         <div className="text-xs text-gray-400">2025复试线</div>
                         <div className="text-lg font-bold text-indigo-600">{programDetail.reexamScore2025}</div>
                       </div>
                       <div className="bg-indigo-50 rounded-lg p-2 text-center">
-                        <div className="text-xs text-gray-400">2024复试线</div>
-                        <div className="text-lg font-bold text-indigo-600">{programDetail.reexamScore2024}</div>
-                      </div>
-                      <div className="bg-indigo-50 rounded-lg p-2 text-center">
-                        <div className="text-xs text-gray-400">2025录取最低分</div>
-                        <div className="text-lg font-bold text-rose-600">{programDetail.admitScore2025}</div>
+                        <div className="text-xs text-gray-400">2026录取最低分</div>
+                        <div className="text-lg font-bold text-rose-600">{programDetail.admitScore2026}</div>
                       </div>
                     </div>
 
@@ -252,15 +252,15 @@ export default function UniversityCard({ rec }: Props) {
                     <div className="grid grid-cols-3 gap-2">
                       <div className="bg-gray-50 rounded-lg p-2 text-center">
                         <div className="text-xs text-gray-400">计划招生</div>
-                        <div className="text-base font-semibold text-gray-700">{programDetail.plannedEnrollment2025}人</div>
+                        <div className="text-base font-semibold text-gray-700">{programDetail.plannedEnrollment2026}人</div>
                       </div>
                       <div className="bg-gray-50 rounded-lg p-2 text-center">
                         <div className="text-xs text-gray-400">实际招生</div>
-                        <div className="text-base font-semibold text-gray-700">{programDetail.actualEnrollment2025}人</div>
+                        <div className="text-base font-semibold text-gray-700">{programDetail.actualEnrollment2026}人</div>
                       </div>
                       <div className="bg-gray-50 rounded-lg p-2 text-center">
                         <div className="text-xs text-gray-400">推免人数</div>
-                        <div className="text-base font-semibold text-gray-700">{programDetail.recommendedEnrollment2025}人</div>
+                        <div className="text-base font-semibold text-gray-700">{programDetail.recommendedEnrollment2026}人</div>
                       </div>
                     </div>
 

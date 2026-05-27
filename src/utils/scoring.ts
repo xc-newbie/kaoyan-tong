@@ -287,6 +287,24 @@ function getCategoryWeights(cat: DisciplineCategory | null, undergradMajor?: str
         english: 0.08, project: 0.12, professionalLiteracy: 0.18,
         researchPotential: 0.15, comprehensive: 0.17,
       };
+    case 'philosophy':
+      return {
+        academic: 0.15, mathLogic: 0.03, programming: 0.02, competition: 0.04,
+        english: 0.12, project: 0.05, professionalLiteracy: 0.18,
+        researchPotential: 0.2, comprehensive: 0.21,
+      };
+    case 'history':
+      return {
+        academic: 0.15, mathLogic: 0.03, programming: 0.02, competition: 0.04,
+        english: 0.12, project: 0.05, professionalLiteracy: 0.2,
+        researchPotential: 0.2, comprehensive: 0.19,
+      };
+    case 'art':
+      return {
+        academic: 0.08, mathLogic: 0.02, programming: 0.05, competition: 0.15,
+        english: 0.08, project: 0.12, professionalLiteracy: 0.2,
+        researchPotential: 0.1, comprehensive: 0.2,
+      };
     default:
       return defaultWeights;
   }

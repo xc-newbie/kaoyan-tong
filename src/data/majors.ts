@@ -10,7 +10,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校、党校、社科研究机构从事教学科研，也可进入出版传媒、公务员系统、企业管理等岗位。哲学训练的逻辑思维能力在咨询、法律等跨界领域有优势。',
     suitableFor: '适合喜欢深度阅读和思辨、有较强的理论兴趣和文字功底的考生。不考数学，跨考门槛低。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '哲学：333（A区）/ 323（B区）', nationalLine2025: '哲学：317（A区）/ 307（B区）',
+    nationalLine2025: '哲学：333（A区）/ 323（B区）', nationalLine2026: '哲学：317（A区）/ 307（B区）',
     tags: ['哲学', '不考数学', '思辨训练', '学术导向', '竞争较小'],
   },
   {
@@ -21,7 +21,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可到高校任教、研究机构从事伦理研究，或进入企业担任伦理合规官，以及在医院伦理委员会、政府部门等任职。AI伦理方向是新兴热门。',
     suitableFor: '适合关注社会道德问题、有较强逻辑思维和文字表达能力的考生。不考数学。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '哲学：333（A区）/ 323（B区）', nationalLine2025: '哲学：317（A区）/ 307（B区）',
+    nationalLine2025: '哲学：333（A区）/ 323（B区）', nationalLine2026: '哲学：317（A区）/ 307（B区）',
     tags: ['哲学', '不考数学', '冷门', 'AI伦理', '应用前景广'],
   },
 
@@ -34,7 +34,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校、宗教研究机构、文化部门、统战部门等工作。宗教事务管理和宗教文化旅游方向有特殊需求。',
     suitableFor: '适合对宗教文化和社会现象有研究兴趣的考生。不考数学，冷门方向竞争极小。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '哲学：333（A区）/ 323（B区）', nationalLine2025: '哲学：317（A区）/ 307（B区）',
+    nationalLine2025: '哲学：333（A区）/ 323（B区）', nationalLine2026: '哲学：317（A区）/ 307（B区）',
     tags: ['哲学', '宗教', '不考数学', '冷门', '竞争极小'],
   },
   {
@@ -45,7 +45,7 @@ export const majors: Major[] = [
     careerProspects: '逻辑学训练的形式化推理能力在AI、法律、计算机等领域有独特优势。毕业生可进入AI公司、法律机构、高校等。',
     suitableFor: '适合喜欢数学和形式化推理、对AI基础理论有兴趣的考生。是哲学中最接近计算机科学的方向。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 1,
-    nationalLine2024: '哲学：333（A区）/ 323（B区）', nationalLine2025: '哲学：317（A区）/ 307（B区）',
+    nationalLine2025: '哲学：333（A区）/ 323（B区）', nationalLine2026: '哲学：317（A区）/ 307（B区）',
     tags: ['哲学', '逻辑', 'AI推理', '不考数学', '冷门交叉'],
   },
   {
@@ -56,7 +56,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入科技政策研究机构、科技企业伦理合规部门、高校、科技媒体等。AI治理和科技伦理是快速增长的新兴领域。',
     suitableFor: '适合理工科背景、对科技的社会影响有思考兴趣的考生。是哲学中最适合理工科跨考的方向。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 2,
-    nationalLine2024: '哲学：333（A区）/ 323（B区）', nationalLine2025: '哲学：317（A区）/ 307（B区）',
+    nationalLine2025: '哲学：333（A区）/ 323（B区）', nationalLine2026: '哲学：317（A区）/ 307（B区）',
     tags: ['哲学', '科技伦理', 'AI治理', '不考数学', '理工跨考友好'],
   },
 
@@ -69,7 +69,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校、研究机构从事经济学研究，也可进入政府部门、金融监管机构等。偏学术方向适合继续读博。',
     suitableFor: '适合对经济理论有浓厚兴趣、希望从事学术研究或政策分析的考生。对数学要求较高。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '经济学：338（A区）/ 328（B区）', nationalLine2025: '经济学：323（A区）/ 313（B区）',
+    nationalLine2025: '经济学：338（A区）/ 328（B区）', nationalLine2026: '经济学：323（A区）/ 313（B区）',
     tags: ['学术导向', '理论研究', '数学三', '读博友好', '经济学基础'],
   },
   {
@@ -80,7 +80,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生去向包括银行、券商、基金、咨询公司、政府部门等。金融方向薪资优厚。',
     suitableFor: '适合数学基础较好、对经济现象和政策分析有兴趣的考生。学硕偏理论研究，专硕偏应用。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '经济学：338（A区）/ 328（B区）', nationalLine2025: '经济学：323（A区）/ 313（B区）',
+    nationalLine2025: '经济学：338（A区）/ 328（B区）', nationalLine2026: '经济学：323（A区）/ 313（B区）',
     tags: ['经济学', '金融方向', '数学三', '竞争激烈', '就业薪资高'],
   },
   {
@@ -91,7 +91,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入投行、券商、基金、银行总行、信托等金融机构。薪资水平在所有专业中排名前列。',
     suitableFor: '适合数学和英语基础较好、对金融市场有浓厚兴趣的考生。竞争极其激烈，名校分数线常年在400+。',
     techLevel: 3, crossExamDifficulty: 4, competitionHeat: 5,
-    nationalLine2024: '金融专硕：338（A区）/ 328（B区）', nationalLine2025: '金融专硕：323（A区）/ 313（B区）',
+    nationalLine2025: '金融专硕：338（A区）/ 328（B区）', nationalLine2026: '金融专硕：323（A区）/ 313（B区）',
     tags: ['最热门', '薪资天花板', '金融', '数三/396', '竞争最激烈'],
   },
   {
@@ -102,7 +102,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生是互联网大厂数据岗位的核心招聘群体，可从事数据分析师、数据科学家等。起薪高（20-35K/月）。',
     suitableFor: '适合数学和统计基础较好、愿意投入高强度学习的考生。与大数据管理专业有一定交叉，但统计学要求更高。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '经济学：338（A区）/ 328（B区）', nationalLine2025: '经济学：323（A区）/ 313（B区）',
+    nationalLine2025: '经济学：338（A区）/ 328（B区）', nationalLine2026: '经济学：323（A区）/ 313（B区）',
     tags: ['热门专业', '薪资高', '数学三', '统考432', '竞争激烈'],
   },
   {
@@ -113,7 +113,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入跨国公司、外贸企业、跨境电商平台、咨询公司、政府商务部门等。英语突出的毕业生更具优势。',
     suitableFor: '适合英语较好、对国际贸易和跨文化商务有兴趣的考生。相比金融和应用统计，竞争稍低。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '国际商务：338（A区）/ 328（B区）', nationalLine2025: '国际商务：323（A区）/ 313（B区）',
+    nationalLine2025: '国际商务：338（A区）/ 328（B区）', nationalLine2026: '国际商务：323（A区）/ 313（B区）',
     tags: ['经济类专硕', '英语要求高', '国际贸易', '396可考', '竞争适中'],
   },
   {
@@ -124,7 +124,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入保险公司、再保险公司、保险经纪公司、社保基金管理机构等。精算师资格认证含金量极高。',
     suitableFor: '适合数学和统计基础较好的考生，特别是对精算方向感兴趣的同学。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '保险专硕：338（A区）/ 328（B区）', nationalLine2025: '保险专硕：323（A区）/ 313（B区）',
+    nationalLine2025: '保险专硕：338（A区）/ 328（B区）', nationalLine2026: '保险专硕：323（A区）/ 313（B区）',
     tags: ['经济类专硕', '精算方向', '冷门但前景好', '竞争较小', '保险科技'],
   },
   {
@@ -135,7 +135,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入资产评估事务所、会计师事务所、券商投行、银行、资产管理公司等。资产评估师资格含金量高。',
     suitableFor: '适合对财务分析和资产定价有兴趣的考生。属于经济类中专硕竞争相对较小的方向。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '资产评估：338（A区）/ 328（B区）', nationalLine2025: '资产评估：323（A区）/ 313（B区）',
+    nationalLine2025: '资产评估：338（A区）/ 328（B区）', nationalLine2026: '资产评估：323（A区）/ 313（B区）',
     tags: ['经济类专硕', '资产评估', '财务方向', '竞争较小', '较冷门'],
   },
   {
@@ -146,7 +146,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入互联网公司、数字经济研究机构、政府部门（发改委、网信办等）、咨询公司等。是最前沿的经济学方向。',
     suitableFor: '适合对数字经济、平台经济等前沿领域有兴趣的考生。交叉学科属性强，同时需要经济学思维和技术理解力。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '数字经济：338（A区）/ 328（B区）', nationalLine2025: '数字经济：323（A区）/ 313（B区）',
+    nationalLine2025: '数字经济：338（A区）/ 328（B区）', nationalLine2026: '数字经济：323（A区）/ 313（B区）',
     tags: ['新兴方向', '数字经济', '前沿领域', '交叉学科', '蓝海'],
   },
   // ===== 经济学新增 (2) =====
@@ -158,7 +158,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入四大会计师事务所税务部门、税务局、大型企业税务部、税务师事务所等。税务人才属于高需求专业服务人群。',
     suitableFor: '适合对财税政策有兴趣、细心且有数字敏感的考生。396联考比数学三难度低，对文科跨考生友好。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '经济学专硕：338（A区）/ 328（B区）', nationalLine2025: '经济学专硕：323（A区）/ 313（B区）',
+    nationalLine2025: '经济学专硕：338（A区）/ 328（B区）', nationalLine2026: '经济学专硕：323（A区）/ 313（B区）',
     tags: ['经济学专硕', '税务', '396联考', '四大', '财税'],
   },
   {
@@ -169,7 +169,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入四大会计师事务所、国家审计署、企业内部审计部门、金融机构合规部门等。审计是体制内和体制外双通的稳定选择。',
     suitableFor: '适合有较强逻辑和公正意识、做事严谨的考生。199管理类联考无高等数学，数学门槛低。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '审计专硕：201/52/104（A区）', nationalLine2025: '审计专硕：194/48/96（A区）',
+    nationalLine2025: '审计专硕：201/52/104（A区）', nationalLine2026: '审计专硕：194/48/96（A区）',
     tags: ['经济学专硕', '审计', '管理类联考', '四大', '竞争激烈'],
   },
 
@@ -182,7 +182,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可从事律师、法官、检察官、企业法务、合规管理等。法律硕士（非法学）是全国报考人数最多的专业之一。',
     suitableFor: '适合逻辑思维强、记忆力好、表达能力和文字功底扎实的考生。法硕（非法学）是跨考热门，不考数学。',
     techLevel: 1, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '法学：331（A区）/ 321（B区）', nationalLine2025: '法学：323（A区）/ 313（B区）',
+    nationalLine2025: '法学：331（A区）/ 321（B区）', nationalLine2026: '法学：323（A区）/ 313（B区）',
     tags: ['法学', '不考数学', '法硕联考', '跨考最热', '就业稳定'],
   },
   {
@@ -193,7 +193,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入外交外事、政府机关、智库研究、国际组织、媒体等。',
     suitableFor: '适合对政治和国际关系感兴趣、有批判性思维的考生。不考数学，但对阅读量和理论素养要求高。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '法学：331（A区）/ 321（B区）', nationalLine2025: '法学：323（A区）/ 313（B区）',
+    nationalLine2025: '法学：331（A区）/ 321（B区）', nationalLine2026: '法学：323（A区）/ 313（B区）',
     tags: ['法学', '不考数学', '国际关系', '智库', '公务员'],
   },
   {
@@ -204,7 +204,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入政府统计部门、市场调研公司、咨询公司、NGO、高校等。定量研究能力强的毕业生在互联网用户研究岗位吃香。',
     suitableFor: '适合对社会现象有好奇心、具备一定统计基础的考生。是文科中较少数需要一定定量分析能力的学科。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '法学：331（A区）/ 321（B区）', nationalLine2025: '法学：323（A区）/ 313（B区）',
+    nationalLine2025: '法学：331（A区）/ 321（B区）', nationalLine2026: '法学：323（A区）/ 313（B区）',
     tags: ['法学', '社会学', '定量研究', '不考数学大多', '用户研究'],
   },
   {
@@ -215,7 +215,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入高校（思政课教师、辅导员）、党校、党政机关、事业单位等。高校思政岗位扩招，就业形势好。',
     suitableFor: '适合政治理论基础好、对理论研究和宣传教育有兴趣的考生。不考数学，属于文科中相对好上岸的方向。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 3,
-    nationalLine2024: '法学：331（A区）/ 321（B区）', nationalLine2025: '法学：323（A区）/ 313（B区）',
+    nationalLine2025: '法学：331（A区）/ 321（B区）', nationalLine2026: '法学：323（A区）/ 313（B区）',
     tags: ['法学', '不考数学', '高校就业', '思政方向', '竞争适中'],
   },
   {
@@ -226,7 +226,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入公安系统、国安系统、政法机关、纪检监察等。体制内就业比例极高，工作稳定。',
     suitableFor: '适合有较强纪律性和正义感、身体素质较好的考生。通常有政审和体测要求。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '法学：331（A区）/ 321（B区）', nationalLine2025: '法学：323（A区）/ 313（B区）',
+    nationalLine2025: '法学：331（A区）/ 321（B区）', nationalLine2026: '法学：323（A区）/ 313（B区）',
     tags: ['法学', '公安', '体制内', '不考数学', '政审体测'],
   },
   // ===== 法学新增 (2) =====
@@ -238,7 +238,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入民族事务部门、文化遗产保护机构、民族地区政府、NGO组织、文化旅游规划机构等。',
     suitableFor: '适合对民族文化多样性有兴趣、有田野调查意愿的考生。不考数学，竞争较小。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '法学：331（A区）/ 321（B区）', nationalLine2025: '法学：323（A区）/ 313（B区）',
+    nationalLine2025: '法学：331（A区）/ 321（B区）', nationalLine2026: '法学：323（A区）/ 313（B区）',
     tags: ['法学', '民族学', '人类学', '不考数学', '竞争小'],
   },
   {
@@ -249,7 +249,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入党政机关、党校、高校思政教学、国企党建部门等。是体制内就业对口度最高的学科之一。',
     suitableFor: '适合有志于党政机关和党务工作的考生。是近几年最受体制内青睐的专业方向。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '法学：331（A区）/ 321（B区）', nationalLine2025: '法学：323（A区）/ 313（B区）',
+    nationalLine2025: '法学：331（A区）/ 321（B区）', nationalLine2026: '法学：323（A区）/ 313（B区）',
     tags: ['法学', '党建', '体制内', '不考数学', '新兴学科'],
   },
 
@@ -262,7 +262,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校、中小学、教育机构、教育科技公司、教育行政部门等。教育学硕士毕业后考教师编有优势。',
     suitableFor: '适合对教育事业有兴趣、希望从事教学或教育管理工作的考生。311统考使备考有明确范围。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '教育学：350（A区）/ 340（B区）', nationalLine2025: '教育学：341（A区）/ 331（B区）',
+    nationalLine2025: '教育学：350（A区）/ 340（B区）', nationalLine2026: '教育学：341（A区）/ 331（B区）',
     tags: ['教育学', '不考数学', '311统考', '教师方向', '国家线高'],
   },
   {
@@ -273,7 +273,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可从事心理咨询、人力资源、用户体验研究、教育测评、科研等。用户研究(UXR)方向在互联网公司需求增长。',
     suitableFor: '适合对人类心理和行为有好奇心、具备科学思维和分析能力的考生。312统考内容较多，需要系统备考。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '教育学：350（A区）/ 340（B区）', nationalLine2025: '教育学：341（A区）/ 331（B区）',
+    nationalLine2025: '教育学：350（A区）/ 340（B区）', nationalLine2026: '教育学：341（A区）/ 331（B区）',
     tags: ['心理学', '不考数学', '312统考', '热门', '咨询/UXR'],
   },
   {
@@ -284,7 +284,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可赴海外孔子学院任教，也可在国内从事对外汉语教学、国际学校教学等。海外工作经历是独特优势。',
     suitableFor: '适合语言表达能力强、喜欢跨文化交流的考生。不考数学，是文科生出国的好跳板。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 3,
-    nationalLine2024: '教育专硕：350（A区）/ 340（B区）', nationalLine2025: '教育专硕：341（A区）/ 331（B区）',
+    nationalLine2025: '教育专硕：350（A区）/ 340（B区）', nationalLine2026: '教育专硕：341（A区）/ 331（B区）',
     tags: ['教育专硕', '不考数学', '海外就业', '跨文化', '文科跳板'],
   },
   {
@@ -295,7 +295,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入中小学、幼儿园成为编制内教师，是成为教师的最主要途径。学科教学方向就业最为直接对口。',
     suitableFor: '适合希望成为中小学教师的考生。不考数学，333教育综合是核心科目。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 5,
-    nationalLine2024: '教育专硕：350（A区）/ 340（B区）', nationalLine2025: '教育专硕：341（A区）/ 331（B区）',
+    nationalLine2025: '教育专硕：350（A区）/ 340（B区）', nationalLine2026: '教育专硕：341（A区）/ 331（B区）',
     tags: ['教育专硕', '不考数学', '教师编制', '竞争激烈', '333统考大纲'],
   },
   // ===== 教育学新增 (3) =====
@@ -307,7 +307,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校体育教师、竞技体育管理、健身产业、运动康复中心、体育赛事运营等。全民健身和体育产业发展扩大就业空间。',
     suitableFor: '适合有体育专长、对运动科学和体育管理有兴趣的考生。不考数学，竞争相对较小。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '体育学：313（A区）/ 303（B区）', nationalLine2025: '体育学：305（A区）/ 295（B区）',
+    nationalLine2025: '体育学：313（A区）/ 303（B区）', nationalLine2026: '体育学：305（A区）/ 295（B区）',
     tags: ['体育学', '不考数学', '体育产业', '运动科学', '竞争较小'],
   },
   {
@@ -318,7 +318,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入心理咨询机构、企业HR部门、互联网公司用户研究、中小学心理健康教育等。心理咨询师和UXR是两大热门职业方向。',
     suitableFor: '适合对心理学应用有兴趣、不排斥与人深度交流的考生。347自命题各校差异大，需要尽早锁定目标院校。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 5,
-    nationalLine2024: '应用心理：350（A区）/ 340（B区）', nationalLine2025: '应用心理：341（A区）/ 331（B区）',
+    nationalLine2025: '应用心理：350（A区）/ 340（B区）', nationalLine2026: '应用心理：341（A区）/ 331（B区）',
     tags: ['教育专硕', '心理学', '不考数学', '咨询', '竞争激烈'],
   },
   {
@@ -329,7 +329,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可成为中小学体育教师（带编制）、专业队体能教练、健身俱乐部管理、体育赛事公司运营等。体育产业人才缺口大。',
     suitableFor: '适合有体育特长或对运动训练科学化有兴趣的考生。专硕相比学硕更侧重实践技能。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 2,
-    nationalLine2024: '体育：313（A区）/ 303（B区）', nationalLine2025: '体育：305（A区）/ 295（B区）',
+    nationalLine2025: '体育：313（A区）/ 303（B区）', nationalLine2026: '体育：305（A区）/ 295（B区）',
     tags: ['体育专硕', '不考数学', '体育教师', '运动训练', '竞争较小'],
   },
 
@@ -342,7 +342,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可从事语文教师、编辑出版、文案策划、公务员、文化管理等。公务员考试中中文专业岗位较多。',
     suitableFor: '适合阅读量大、文字功底扎实、对文学和文化研究有浓厚兴趣的考生。不考数学，但专业课背诵量极大。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '文学：365（A区）/ 355（B区）', nationalLine2025: '文学：351（A区）/ 341（B区）',
+    nationalLine2025: '文学：365（A区）/ 355（B区）', nationalLine2026: '文学：351（A区）/ 341（B区）',
     tags: ['文学', '不考数学', '背诵量大', '公务员友好', '教师方向'],
   },
   {
@@ -353,7 +353,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可从事翻译、外语教师、跨国企业商务、外交外事、国际组织等工作。',
     suitableFor: '适合外语基础好、对语言和文化交流有兴趣的考生。MTI翻译硕士是偏应用的专硕方向。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '文学：365（A区）/ 355（B区）', nationalLine2025: '文学：351（A区）/ 341（B区）',
+    nationalLine2025: '文学：365（A区）/ 355（B区）', nationalLine2026: '文学：351（A区）/ 341（B区）',
     tags: ['文学', '外语', '不考数学', '二外', '翻译方向'],
   },
   {
@@ -364,7 +364,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入主流媒体、互联网平台、公关公司、广告公司、政府宣传部门等。新媒体运营、内容策划等岗位需求旺盛。',
     suitableFor: '适合文字表达能力强、对社会热点和媒体运作感兴趣的考生。不考数学，跨考门槛相对较低。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 5,
-    nationalLine2024: '文学：365（A区）/ 355（B区）', nationalLine2025: '文学：351（A区）/ 341（B区）',
+    nationalLine2025: '文学：365（A区）/ 355（B区）', nationalLine2026: '文学：351（A区）/ 341（B区）',
     tags: ['文学', '不考数学', '新媒体', '跨考热门', '国家线高'],
   },
   {
@@ -375,7 +375,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生遍布各大互联网公司、主流媒体、广告公关公司等。短视频、直播电商等新业态也大量需要传播人才。',
     suitableFor: '适合对新媒体运营、内容策划、品牌传播有兴趣的考生。跨考人数多，竞争非常激烈。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 5,
-    nationalLine2024: '新闻与传播：365（A区）/ 355（B区）', nationalLine2025: '新闻与传播：351（A区）/ 341（B区）',
+    nationalLine2025: '新闻与传播：365（A区）/ 355（B区）', nationalLine2026: '新闻与传播：351（A区）/ 341（B区）',
     tags: ['文学专硕', 'MJC', '不考数学', '跨考最热', '新媒体'],
   },
   {
@@ -386,7 +386,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可从事专业翻译、外事接待、国际会议同传、本地化项目管理等。同声传译日薪可达数千元。',
     suitableFor: '适合外语能力突出、反应快、知识面广的考生。MTI不考二外（学硕才考），是外语专业考研的优选。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '翻译：365（A区）/ 355（B区）', nationalLine2025: '翻译：351（A区）/ 341（B区）',
+    nationalLine2025: '翻译：365（A区）/ 355（B区）', nationalLine2026: '翻译：351（A区）/ 341（B区）',
     tags: ['翻译', 'MTI', '不考数学', '外语', '口译高薪'],
   },
   // ===== 文学新增 (2) =====
@@ -398,7 +398,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入出版社、新媒体公司、互联网内容平台（得到/喜马拉雅等）、版权代理公司等。知识付费和数字阅读赛道持续扩大就业空间。',
     suitableFor: '适合对图书、媒体、内容行业有兴趣的考生。不考数学，专业门槛适中。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 2,
-    nationalLine2024: '出版：365（A区）/ 355（B区）', nationalLine2025: '出版：351（A区）/ 341（B区）',
+    nationalLine2025: '出版：365（A区）/ 355（B区）', nationalLine2026: '出版：351（A区）/ 341（B区）',
     tags: ['文学专硕', '出版', '新媒体', '不考数学', '知识付费'],
   },
   {
@@ -409,7 +409,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入日企、中日合资企业、外事部门、翻译公司、跨境电商（对日）、高校日语教师等。日企在华数量大，日语人才需求稳定。',
     suitableFor: '适合日语语言基础扎实、对日本文化有深入了解兴趣的考生。通常需要N1水平。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '文学：365（A区）/ 355（B区）', nationalLine2025: '文学：351（A区）/ 341（B区）',
+    nationalLine2025: '文学：365（A区）/ 355（B区）', nationalLine2026: '文学：351（A区）/ 341（B区）',
     tags: ['文学', '日语', 'N1', '日企', '不考数学'],
   },
 
@@ -422,7 +422,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校、博物馆、档案馆、出版社、文化部门等工作。近年来文化旅游、文创产业也提供了新出路。',
     suitableFor: '适合对历史研究有浓厚兴趣、阅读量大、有耐心的考生。不考数学，313统考难度适中。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '历史学：345（A区）/ 335（B区）', nationalLine2025: '历史学：336（A区）/ 326（B区）',
+    nationalLine2025: '历史学：345（A区）/ 335（B区）', nationalLine2026: '历史学：336（A区）/ 326（B区）',
     tags: ['历史学', '不考数学', '313统考', '博物馆', '学术导向'],
   },
   {
@@ -433,7 +433,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业方向与中国史类似，但外语能力更强，在国际交流、涉外文化、外交等领域更具优势。',
     suitableFor: '适合外语基础较好、对全球视野下历史研究有兴趣的考生。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '历史学：345（A区）/ 335（B区）', nationalLine2025: '历史学：336（A区）/ 326（B区）',
+    nationalLine2025: '历史学：345（A区）/ 335（B区）', nationalLine2026: '历史学：336（A区）/ 326（B区）',
     tags: ['历史学', '不考数学', '外语要求高', '全球视野', '竞争小些'],
   },
   // ===== 历史学新增 (2) =====
@@ -445,7 +445,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入考古研究所、博物馆、文物局、文化遗产保护机构、拍卖行等。近年博物馆建设热潮和文博产业化带来大量新岗位。',
     suitableFor: '适合对古代文明和文化遗存有浓厚兴趣、能接受户外田野工作的考生。不考数学，竞争相对较小。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '历史学：345（A区）/ 335（B区）', nationalLine2025: '历史学：336（A区）/ 326（B区）',
+    nationalLine2025: '历史学：345（A区）/ 335（B区）', nationalLine2026: '历史学：336（A区）/ 326（B区）',
     tags: ['历史学', '考古', '不考数学', '文博', '田野工作'],
   },
   {
@@ -456,7 +456,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入博物馆、美术馆、文化遗产保护机构、拍卖行、文旅企业等。数字文博和文创产业是最具增长性的方向。',
     suitableFor: '适合对博物馆和文化遺产保护有兴趣的考生。不考数学，是文科跨考的热门方向之一。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 3,
-    nationalLine2024: '历史学专硕：345（A区）/ 335（B区）', nationalLine2025: '历史学专硕：336（A区）/ 326（B区）',
+    nationalLine2025: '历史学专硕：345（A区）/ 335（B区）', nationalLine2026: '历史学专硕：336（A区）/ 326（B区）',
     tags: ['历史学专硕', '博物馆', '文保', '不考数学', '文创'],
   },
 
@@ -469,7 +469,7 @@ export const majors: Major[] = [
     careerProspects: '数学硕士在金融、IT、教育等领域供不应求。量化金融、数据科学、AI算法等高薪岗位尤其青睐数学背景。',
     suitableFor: '适合数学基础扎实、喜欢抽象思维和逻辑推理的考生。数学考研不考统考数学，考数学分析和高等代数。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['基础学科', '数学分析', 'AI基础', '金融量化', '万金油'],
   },
   {
@@ -480,7 +480,7 @@ export const majors: Major[] = [
     careerProspects: '物理硕士凭借数理和建模能力，在半导体、新能源、金融量化、IT算法等领域备受欢迎。量子计算方向人才极为稀缺。',
     suitableFor: '适合物理基础扎实、数理思维强的考生。',
     techLevel: 4, crossExamDifficulty: 4, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['基础学科', '量子计算', '建模能力强', '跨行业', '国家支持'],
   },
   {
@@ -491,7 +491,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入化工、制药、新材料、新能源、环保检测等行业。化学+计算/化学+AI的交叉方向前景广阔。',
     suitableFor: '适合有实验兴趣、化学基础扎实的考生。多数不考数学，但专业课需要大量实验和理论储备。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '不考数学', '实验为主', '化工制药', '材料能源'],
   },
   {
@@ -502,7 +502,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入生物医药企业、科研院所、医院、疾控中心等。生物信息学（生物+数据）方向就业火热。',
     suitableFor: '适合对生命科学有兴趣的考生。多数院校不考数学，是理工科中数学门槛最低的方向之一。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['生命科学', '不考数学', '生物医药', '朝阳产业', '实验为主'],
   },
   {
@@ -513,7 +513,7 @@ export const majors: Major[] = [
     careerProspects: 'GIS方向毕业生就业于互联网地图、智慧城市、自然资源部门等。北斗导航和自动驾驶产业推动了GIS人才需求。',
     suitableFor: '适合对地理信息、空间数据分析有兴趣的考生。GIS方向是大数据管理专业可考虑的差异化方向。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', 'GIS', '遥感', '空间大数据', '数二/不考数学'],
   },
   {
@@ -524,7 +524,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入气象局、民航、环保部门、新能源公司、保险公司（气候风险评估）等。气象大数据和气象AI是新兴方向。',
     suitableFor: '适合对气象和气候有兴趣、物理和数学基础较好的考生。开设院校少（仅南大、北大、兰大等），竞争格局特殊。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '气象', '冷门', '气象局', '新能源'],
   },
   {
@@ -535,7 +535,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业方向与应用统计类似，但更多偏研究型岗位。可进入药企做生物统计、金融做量化分析、互联网做数据科学。',
     suitableFor: '适合数学基础扎实、对统计理论有兴趣的考生。理学统计学对数学要求高于应用统计专硕。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '数据科学', '统计理论', '科研导向', '应用广'],
   },
   {
@@ -546,7 +546,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入环保部门、自然保护区、环评机构、环保NGO、生态修复公司等。"双碳"政策带来了新的就业增长点。',
     suitableFor: '适合热爱自然、关注环境保护的考生。多数不考数学，国家线在理学中较低。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '生态', '环保', '不考数学', '双碳'],
   },
 
@@ -559,7 +559,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入天文台、航天机构、高校任教、科普教育等领域。天文学人才在大科学装置运维和空间探测中不可或缺。',
     suitableFor: '适合物理和数学基础较强、对宇宙探索有兴趣的考生。开设院校少，竞争格局特殊。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '天体物理', '冷门', '大科学装置', '国家支持'],
   },
   {
@@ -570,7 +570,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入海洋局系统、海洋研究所、海洋工程企业、环保部门等。海洋强国战略带来持续政策红利。',
     suitableFor: '适合对海洋和大自然有兴趣、物理或化学或生物基础较好的考生。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '海洋', '国家战略', '冷门', '跨学科'],
   },
   {
@@ -581,7 +581,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入地震局、自然资源部门、石油勘探企业、水电工程等单位。非常规油气和深地探测是国家急需方向。',
     suitableFor: '适合物理和数学基础较好、对地球内部探测有兴趣的考生。跨考难度适中。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '地球物理', '冷门', '资源勘探', '防灾减灾'],
   },
   {
@@ -592,7 +592,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入地质调查局、矿产企业、石油公司、环保部门、科研院所等。关键矿产和地质灾害防治是国家战略方向。',
     suitableFor: '适合喜欢野外考察、对地球演化有兴趣的考生。多数不考数学或数学要求较低。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '地质', '野外考察', '冷门', '关键矿产'],
   },
   {
@@ -603,7 +603,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入科研院所、互联网企业、金融机构、咨询公司等。系统思维在复杂项目管理中非常稀缺。',
     suitableFor: '适合具有较强的跨学科思维和数学基础的考生。开设院校少，但方向新颖。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '复杂系统', '交叉学科', '冷门', 'AI基础'],
   },
   {
@@ -614,7 +614,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校、科研机构、科普场馆、出版社、科技政策研究部门等。国家科普战略推动社会需求。',
     suitableFor: '适合文理兼修、对科技发展历史和社会影响有兴趣的考生。不考数学，跨考友好。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '文理交叉', '不考数学', '冷门', '科技史'],
   },
 
@@ -627,7 +627,7 @@ export const majors: Major[] = [
     careerProspects: '基础数学硕士转量化金融、密码学、AI算法等应用方向备受欢迎。理论功底是最强竞争力。',
     suitableFor: '适合对纯数学理论有浓厚兴趣、能够沉浸于抽象思考的考生。通常需要较强的数学天赋。',
     techLevel: 5, crossExamDifficulty: 5, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['基础学科', '纯数学', '理论导向', '天赋要求高', '应用转化面广'],
   },
   {
@@ -638,7 +638,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生在金融、保险、互联网、药企（生物统计）领域极度抢手。量化分析师、数据科学家等岗位需求巨大。',
     suitableFor: '适合数学基础扎实、对数据和不确定性分析有兴趣的考生。是最具就业价值的数学方向之一。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '统计', '数据科学', '金融量化', '就业热门'],
   },
 
@@ -651,7 +651,7 @@ export const majors: Major[] = [
     careerProspects: '理论物理培养的数理建模能力在量化金融、AI算法、数据科学等领域极具竞争力。毕业生思维能力强、可迁移性高。',
     suitableFor: '适合物理和数学功底深厚、享受理论推导和建模的考生。是智力挑战最大的学科之一。',
     techLevel: 5, crossExamDifficulty: 5, competitionHeat: 1,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '理论物理', '精英方向', '数理要求极高', '就业可跨界'],
   },
   {
@@ -662,7 +662,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入半导体企业、新能源公司、材料研发中心、芯片制造行业等。是物理中就业最广的二级学科。',
     suitableFor: '适合对材料物理和电子器件有兴趣的物理专业考生。实验和理论兼备。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '凝聚态', '半导体', '就业面广', '新材料'],
   },
   {
@@ -673,7 +673,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入光通信企业、激光设备公司、显示面板行业、科研仪器公司等。光芯片和量子通信是国家急需方向。',
     suitableFor: '适合对光和激光技术有兴趣、物理基础较好的考生。应用性强，就业稳定。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '光学', '光通信', '激光', '应用性强'],
   },
 
@@ -686,7 +686,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入化工、新材料、新能源、环保检测等行业。电池材料和催化方向就业较热。',
     suitableFor: '适合化学基础扎实、对无机材料和配位化学有兴趣的考生。多数不考数学。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '无机化学', '不考数学', '新材料', '实验为主'],
   },
   {
@@ -697,7 +697,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入制药企业研发部门、CRO公司、精细化工企业等。有机合成能力在药企中是核心竞争力。',
     suitableFor: '适合对有机合成和反应机理有兴趣、动手能力强的考生。药企就业路径明确。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '有机化学', '制药', '不考数学', '就业路径清晰'],
   },
   {
@@ -708,7 +708,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入第三方检测机构、药检所、环境监测站、食品安全监管部门等。分析检测人才需求稳定。',
     suitableFor: '适合细致耐心、对仪器操作和数据分析有兴趣的考生。就业市场稳定。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '分析化学', '不考数学', '检测行业', '就业稳定'],
   },
   {
@@ -719,7 +719,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入新能源（锂电池、燃料电池）、催化剂企业、化工设计院等。电化学方向在新能源领域需求大。',
     suitableFor: '适合物理和化学基础较好、对化学理论基础有兴趣的考生。计算化学方向需要一定编程能力。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '物理化学', '新能源', '催化', '电化学'],
   },
   {
@@ -730,7 +730,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入化工材料企业（万华、金发等）、汽车（塑料件）、医疗器械（生物材料）等行业。',
     suitableFor: '适合对高分子材料和聚合物有兴趣的考生。应用面极广，就业稳定。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', '高分子', '不考数学', '材料产业', '就业面广'],
   },
 
@@ -743,7 +743,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入生物医药企业、CRO公司、科研院所。基因编辑、合成生物学是前沿热点，相关人才稀缺。',
     suitableFor: '适合对生命科学有浓厚兴趣、有生化实验基础的考生。是生物方向考研最主流的选择之一。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['生命科学', '不考数学', '生物医药', '前沿方向', '实验为主'],
   },
   {
@@ -754,7 +754,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入发酵企业、生物农药公司、环境修复公司、疾控中心等。益生菌和发酵食品方向创业活跃。',
     suitableFor: '适合对微生物世界有兴趣、能静心做实验的考生。应用面广。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['生命科学', '微生物', '不考数学', '发酵', '环境'],
   },
   {
@@ -765,7 +765,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入神经科学研究机构、脑疾病药物企业、脑机接口创业公司等。脑科学是国家重大战略方向。',
     suitableFor: '适合对脑与心智有兴趣、数理和生物基础较好的考生。是最有前景的生命科学方向之一。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['生命科学', '脑科学', '不考数学', '中国脑计划', '前沿'],
   },
   {
@@ -776,7 +776,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入基因检测公司、种业企业、生物医药研发部门、医学遗传科等。精准医疗和生物育种是两大国家战略方向。',
     suitableFor: '适合对基因和遗传规律有兴趣的考生。生物信息学+遗传学的交叉方向就业最好。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['生命科学', '遗传', '基因编辑', '精准医疗', '生物育种'],
   },
   {
@@ -787,7 +787,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入生物医药企业、干细胞公司、医美研发、科研院所等。干细胞和再生医学是朝阳产业。',
     suitableFor: '适合对细胞功能和疾病机制有兴趣的考生。是生物医学研究的重要基础学科。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['生命科学', '细胞', '干细胞', '不考数学', '生物医药'],
   },
 
@@ -800,7 +800,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业于互联网地图（高德/百度）、智慧城市、自动驾驶公司、自然资源部门等。GIS+大数据开发工程师起薪15-25K/月。',
     suitableFor: '适合对空间数据和地图技术有兴趣的考生。是地理学中编程要求最高的方向，与大数据管理专业衔接紧密。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '理学：288（A区）/ 278（B区）', nationalLine2025: '理学：274（A区）/ 264（B区）',
+    nationalLine2025: '理学：288（A区）/ 278（B区）', nationalLine2026: '理学：274（A区）/ 264（B区）',
     tags: ['理学', 'GIS', '空间大数据', '智慧城市', '自动驾驶'],
   },
 
@@ -813,7 +813,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入航空航天、汽车制造、建筑结构、机械制造等行业从事CAE仿真分析工程师等职位。',
     suitableFor: '适合物理和数学基础扎实、对力学分析有兴趣的考生。属于工科中偏基础的学科。',
     techLevel: 3, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '基础学科', '数学一', 'CAE仿真', '航空航天'],
   },
   {
@@ -824,7 +824,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业面极广：汽车、航空航天、机器人、3C电子、医疗器械等。智能制造和机器人方向前景好。',
     suitableFor: '适合有较好的物理和数学基础、对机械结构和自动化有兴趣的考生。是工科中就业最稳的专业之一。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['传统工科', '就业稳定', '数学一', '智能制造', '机器人'],
   },
   {
@@ -835,7 +835,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业于华为、中兴、三大运营商、互联网公司等。通信行业薪资稳定，5G/6G技术发展带来持续需求。',
     suitableFor: '适合对通信系统和信号处理感兴趣、数学和物理基础较好的考生。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 4,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['通信', '数学一', '5G/6G', '华为就业', '电子类核心'],
   },
   {
@@ -846,7 +846,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入航空航天、汽车制造、工业机器人、智能家居等领域。自动化工程师需求稳定。',
     suitableFor: '适合对自动化、机器人和控制系统有兴趣的考生。需要有较好的数学物理基础和动手实践能力。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['自动化', '机器人', '数学一', '智能制造', '工业4.0'],
   },
   {
@@ -857,7 +857,7 @@ export const majors: Major[] = [
     careerProspects: '计算机专业是就业市场最热门专业之一，名校硕士起薪30-50K/月（大厂）。',
     suitableFor: '适合有较好数学和编程基础的考生。数学一+408统考是考研中最难组合之一。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 5,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['顶流工科', '408统考', '数学一', '薪资天花板', '跨考难度高'],
   },
   {
@@ -868,7 +868,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入建筑设计院、房地产公司、城市规划部门等。建筑行业受经济周期影响较大，但优秀建筑师始终稀缺。',
     suitableFor: '适合有空间感知力和审美能力、不排斥手绘和快题设计的考生。工学中少有的不考数学专业。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '不考数学', '快题设计', '建筑设计', '文理兼修'],
   },
   {
@@ -879,7 +879,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入设计院、施工单位、房地产公司、政府建设管理部门、BIM咨询等。智能建造和BIM方向是行业转型趋势。',
     suitableFor: '适合数学和力学基础较好的考生。BIM和智能建造是行业新的增长点。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['传统工科', '数学一', '基础设施', 'BIM', '行业转型期'],
   },
   {
@@ -890,7 +890,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入环保部门、环境监测站、环保企业、设计院等。碳中和方向是当前最大的风口之一。',
     suitableFor: '适合对环境保护和可持续发展有兴趣的考生。工科中数学要求相对较低（多数考数二），跨考门槛适中。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['环境', '碳中和', '数学二', '政策利好', '竞争适中'],
   },
   {
@@ -901,7 +901,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入食品企业研发部门、食品检测机构、市场监管部门、餐饮连锁企业等。食品安全是刚需。',
     suitableFor: '适合化学和生物基础较好、对食品和营养行业有兴趣的考生。数二相对友好。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '食品', '数二', '大健康', '竞争适中'],
   },
   {
@@ -912,7 +912,7 @@ export const majors: Major[] = [
     careerProspects: '与计算机科学与技术类似，就业面向互联网和软件企业。专硕偏实践，性价比高。',
     suitableFor: '如果目标是进入互联网行业做开发，专硕型软件工程是不错的选择。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 5,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '实践导向', '专硕友好', '数学二', '互联网'],
   },
   {
@@ -923,7 +923,7 @@ export const majors: Major[] = [
     careerProspects: '网安人才是国家紧缺人才，毕业生可进入国家安全部门、网信办、军队、互联网企业安全部门等。',
     suitableFor: '适合对安全和密码学有兴趣、逻辑思维缜密的考生。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['网络安全', '国家紧缺', '数学一', '新兴学科', '体制内外通吃'],
   },
   {
@@ -934,7 +934,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业面极广，覆盖电子制造、通信设备、集成电路、智能硬件等行业。',
     suitableFor: '适合电子、通信、自动化等相关本科专业的考生。数学二难度相对较低，专硕性价比高。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '覆盖广', '数学二', '就业面宽', '电子通信'],
   },
   {
@@ -945,7 +945,7 @@ export const majors: Major[] = [
     careerProspects: 'AI人才供不应求，顶尖院校毕业生起薪可达40-60K/月。',
     suitableFor: '适合对AI有强烈兴趣且有一定数理和编程基础的考生。AI方向对数学要求高。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 5,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['最热门方向', 'AI', '数学二', '薪资天花板', '要求极高'],
   },
   {
@@ -956,7 +956,7 @@ export const majors: Major[] = [
     careerProspects: '大数据工程师是热门岗位。起薪18-30K/月，资深工程师40-60K/月。',
     suitableFor: '与大数据管理本科最对口的技术方向。跨考难度略低。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 4,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['本专业对口', '大数据', '数学二', '工程实践', '就业好'],
   },
   {
@@ -967,7 +967,7 @@ export const majors: Major[] = [
     careerProspects: '网络安全是近年薪资涨幅最大的IT方向之一。安全工程师等岗位需求旺盛。起薪18-28K/月。',
     suitableFor: '适合对网络安全有兴趣的考生。相比AI和大数据，安全方向的数学要求相对较低。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['安全方向', '人才稀缺', '数学二', '新兴方向', '差异化'],
   },
 
@@ -980,7 +980,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入光通信企业、激光设备公司、光学镜头厂商、半导体设备企业等。光芯片是国家急需方向。',
     suitableFor: '适合物理和光学基础较好、对光电子技术有兴趣的考生。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '光学', '激光', '光通信', '半导体'],
   },
   {
@@ -991,7 +991,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入仪器仪表企业、科研院所、芯片制造设备企业、医疗器械公司等。科学仪器国产化是卡脖子方向。',
     suitableFor: '适合对精密测量和传感器技术有兴趣的考生。就业稳定，技术壁垒高。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '精密仪器', '传感器', '卡脖子', '仪器国产化'],
   },
   {
@@ -1002,7 +1002,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入新材料企业、半导体行业、新能源（锂电池/光伏）、汽车制造、航空航天等行业。新材料是战略性新兴产业。',
     suitableFor: '适合化学或物理基础较好、对材料研发有兴趣的考生。数二相对友好，跨考门槛适中。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '新材料', '数学二', '战略新兴', '就业面广'],
   },
   {
@@ -1013,7 +1013,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入钢铁企业（宝武、鞍钢）、有色金属企业（中铝、紫金）、新能源材料企业等。高端合金是国家战略需求。',
     suitableFor: '适合化学和物理基础较好的考生。行业相对传统但高端人才稀缺。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '冶金', '传统工科', '冷门', '高端合金'],
   },
   {
@@ -1024,7 +1024,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入电力、航天、汽车、空调制冷、新能源等行业。氢能和储能是新兴方向。',
     suitableFor: '适合物理和数学基础较好、对能源动力有兴趣的考生。',
     techLevel: 3, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '能源动力', '数学一', '新能源', '航空航天'],
   },
   {
@@ -1035,7 +1035,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入国家电网、南方电网、发电集团、新能源企业、电动汽车企业等。国家电网是最大雇主，就业稳定且待遇好。',
     suitableFor: '适合对电力系统和电气设备有兴趣的考生。就业稳定，体制内外通吃。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '电气', '数学一', '国家电网', '竞争激烈'],
   },
   {
@@ -1046,7 +1046,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生是芯片企业（华为海思、中芯国际）的核心招聘对象。集成电路人才缺口巨大，起薪高（20-35K/月）。',
     suitableFor: '适合物理和电子电路基础较好的考生。是芯片自主化国家战略最紧缺的方向。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 4,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '芯片', '数学一', '卡脖子', '薪资高'],
   },
   {
@@ -1057,7 +1057,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入水利部门、水电设计院、大型施工企业、水务公司等。国家水网建设带来稳定需求。',
     suitableFor: '适合力学和物理基础较好、对水利工程有兴趣的考生。体制内就业比例高。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '水利', '数学一', '体制内', '基础设施'],
   },
   {
@@ -1068,7 +1068,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入测绘局、卫星遥感企业、自动驾驶公司（高精地图）、北斗导航系统相关企业等。北斗产业带动人才需求。',
     suitableFor: '适合数学和计算机基础较好、对空间数据有兴趣的考生。与GIS专业高度相关。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '测绘', '北斗', '遥感', '高精地图'],
   },
   {
@@ -1079,7 +1079,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入化工企业（中石化、万华化学）、制药企业、新能源材料公司等。绿色化工和二氧化碳转化是前沿方向。',
     suitableFor: '适合化学基础较好、对化工生产过程有兴趣的考生。数二相对友好。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '化工', '数学二', '制药', '新能源'],
   },
   {
@@ -1090,7 +1090,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入自然资源部门、地质调查局、石油公司、矿山企业等。关键矿产和深海资源开发上升为国家战略。',
     suitableFor: '适合喜欢野外考察、对矿产资源有兴趣的考生。数学要求相对较低。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '地质', '冷门', '资源勘探', '国家战略'],
   },
   {
@@ -1101,7 +1101,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入大型矿山企业、设计院、安全监管部门等。智能矿山和绿色矿山是转型方向。',
     suitableFor: '适合对矿业和资源加工有兴趣的考生。竞争极小，国家线在工学中最低。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '矿业', '冷门', '数学二', '竞争极小'],
   },
   {
@@ -1112,7 +1112,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入三桶油（中石油/中石化/中海油）、油气服务企业、管道公司等。待遇优厚，但地点多在油田。',
     suitableFor: '适合力学和化学基础较好、不排斥野外和现场工作的考生。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '油气', '冷门', '三桶油', '待遇优厚'],
   },
   {
@@ -1123,7 +1123,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入纺织企业、户外运动品牌材料部门、航空航天材料企业（碳纤维复合材料）等。碳纤维是卡脖子材料。',
     suitableFor: '适合对纤维材料和纺织技术有兴趣的考生。竞争极小，上岸率高。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '纺织', '冷门', '碳纤维', '竞争极小'],
   },
   {
@@ -1134,7 +1134,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入造纸企业、生物发酵企业（食品/制药）、日化企业等。生物制造是国家战略新兴方向。',
     suitableFor: '适合对生物化工和发酵有兴趣的考生。生物工程背景可迁移至此方向。竞争小。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '发酵工程', '生物制造', '冷门', '竞争小'],
   },
   {
@@ -1145,7 +1145,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入交通规划设计院、轨道交通企业、智慧交通科技公司、物流企业等。自动驾驶和智慧交通驱动行业变革。',
     suitableFor: '适合对交通运输系统有兴趣的考生。是"交通强国"战略的核心支撑学科。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '交通', '智慧交通', '数学一', '交通强国'],
   },
   {
@@ -1156,7 +1156,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入船舶制造企业、航运公司、海洋工程企业、海军装备部门等。造船业景气周期持续向上。',
     suitableFor: '适合力学基础好、对船舶和海洋工程有兴趣的考生。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '船舶', '海洋强国', '冷门', '景气上行'],
   },
   {
@@ -1167,7 +1167,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入航天科技、航天科工、航空工业、商飞等军工央企。大飞机、火箭回收、卫星互联网等红利持续释放。',
     suitableFor: '适合力学和物理基础强、对空天技术有浓厚兴趣的考生。就业方向以体制内军工央企为主。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '航空航天', '数学一', '军工央企', '国家战略'],
   },
   {
@@ -1178,7 +1178,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入兵器工业集团、兵器装备集团等军工央企。国防预算增长推动人才需求。',
     suitableFor: '适合有志于国防科技事业的考生。政审要求较高。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '兵器', '军工', '冷门', '国防科技'],
   },
   {
@@ -1189,7 +1189,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入中核集团、广核集团、国家核电、核安全局等。核电重启和核技术医学应用是长期增长点。',
     suitableFor: '适合物理基础扎实、对核能和技术应用有兴趣的考生。开设院校少，竞争小且就业优。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '核工程', '冷门', '核电', '就业优'],
   },
   {
@@ -1200,7 +1200,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入农业装备企业（大疆农业、极飞）、农业科技公司、农机推广部门等。智慧农业是乡村振兴的重要抓手。',
     suitableFor: '适合对农业科技和智能装备有兴趣的考生。数二相对友好，竞争小。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '农业工程', '智慧农业', '数学二', '竞争小'],
   },
   {
@@ -1211,7 +1211,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入林业部门、家居企业、生物质能源企业、家具设计公司等。双碳战略下生物质利用前景广阔。',
     suitableFor: '适合化学或材料背景、对林木资源和生物质有兴趣的考生。竞争极小。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '林业工程', '冷门', '生物质', '双碳'],
   },
   {
@@ -1222,7 +1222,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入医疗器械企业（联影、迈瑞、西门子医疗）、脑机接口创业公司、AI医疗企业等。医疗器械国产替代是万亿级市场。',
     suitableFor: '适合生物/电子/计算机交叉背景的考生。是生物工程本科生最对口的研究生方向之一。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '交叉学科', '医疗器械', '脑机接口', '国产替代'],
   },
   {
@@ -1233,7 +1233,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入规划设计院、城市规划部门、房地产开发企业、城市更新咨询公司等。城市更新和新型城镇化是长期趋势。',
     suitableFor: '适合有空间思维和设计兴趣的考生。工学中不考数学的专业之一。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '城市规划', '不考数学', '快题设计', '城市更新'],
   },
   {
@@ -1244,7 +1244,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入景观设计公司、规划设计院、园林管理部门、地产公司等。国家公园体系建设带来新发展机遇。',
     suitableFor: '适合有美学基础和空间感知力的考生。不考数学。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '风景园林', '不考数学', '景观设计', '国家公园'],
   },
   {
@@ -1255,7 +1255,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入生物制药企业、合成生物学创业公司、工业酶制剂企业、生物材料企业等。合成生物学是最前沿的生物技术方向。',
     suitableFor: '适合生物和化学基础较好、希望将生物学知识工程化的考生。比纯生物方向就业面更广。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '生物工程', '合成生物学', '数学二', '交叉学科'],
   },
   {
@@ -1266,7 +1266,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入企业安全管理部门、应急管理机构、安全评价公司、消防部门等。安全生产法规趋严推动人才需求。',
     suitableFor: '适合有责任感和逻辑分析能力的考生。数二较友好，就业稳定。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '安全', '应急管理', '数学二', '就业稳定'],
   },
   {
@@ -1277,7 +1277,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入公安系统、证物鉴定中心、网信部门等。需通过公安联考或公务员考试。',
     suitableFor: '适合有志于公安政法事业的考生。通常有政审和体测要求。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学：273（A区）/ 263（B区）', nationalLine2025: '工学：260（A区）/ 250（B区）',
+    nationalLine2025: '工学：273（A区）/ 263（B区）', nationalLine2026: '工学：260（A区）/ 250（B区）',
     tags: ['工学', '公安技术', '刑侦', '网络安全', '公务员'],
   },
 
@@ -1290,7 +1290,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入建筑设计院成为注册建筑师。建筑学专业硕士是成为一级注册建筑师的重要途径。',
     suitableFor: '适合有设计兴趣、不排斥快题设计的考生。不考数学。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '建筑设计', '不考数学', '快题', '注册建筑师'],
   },
   {
@@ -1301,7 +1301,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入汽车、装备制造、机器人、医疗器械等行业。制造业升级为机械专硕提供了大量高质量岗位。',
     suitableFor: '适合机械背景、希望更快就业的考生。数学二+英语二比学硕数学一+英语一友好。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '机械', '数学二', '智能制造', '就业广'],
   },
   {
@@ -1312,7 +1312,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入新材料企业、半导体公司、新能源行业、化工企业等。是最具产业转化价值的专硕之一。',
     suitableFor: '适合化学/材料/化工相关本科背景的考生。数学二较友好。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '材料', '化工', '数学二', '战略新兴'],
   },
   {
@@ -1323,7 +1323,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入电力集团、新能源企业、储能公司、动力设备制造商等。储能和氢能是未来十年最大的风口。',
     suitableFor: '适合能动、电气、新能源背景的考生。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '能源', '新能源', '储能', '双碳'],
   },
   {
@@ -1334,7 +1334,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入建筑企业、设计院、房地产公司、水利部门等。BIM和智能建造推动行业数字化升级。',
     suitableFor: '适合土木、水利、建工背景的考生。专硕比学硕更侧重实践和管理。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '土木', '水利', 'BIM', '基础设施'],
   },
   {
@@ -1345,7 +1345,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入环保企业、设计院、政府环保部门、碳交易机构等。碳中和是未来三十年最具确定性的赛道。',
     suitableFor: '适合环境、化工、生物等相关背景的考生。数二难度适中。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '环境', '碳中和', '数学二', '政策利好'],
   },
   {
@@ -1356,7 +1356,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入交通规划设计院、城市交通管理部门、智慧交通科技企业、大型物流企业等。',
     suitableFor: '适合交通、物流、土木等相关背景的考生。数二较友好。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '交通', '智慧交通', '数学二', '就业好'],
   },
   {
@@ -1367,7 +1367,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入国家电网/南方电网比例极高。电气专硕是体制内就业最稳的工科方向之一。',
     suitableFor: '适合电气工程本科背景、追求稳定高质量就业的考生。竞争激烈但回报稳定。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '电气', '国家电网', '数学二', '竞争激烈'],
   },
   {
@@ -1378,7 +1378,7 @@ export const majors: Major[] = [
     careerProspects: '集成电路人才缺口极大。毕业生起薪25-45K/月，是工科薪资天花板方向之一。',
     suitableFor: '适合电子、微电子、物理等相关背景的考生。是芯片自主化国家战略最急需的人才方向。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 4,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '芯片', '集成电路', '卡脖子', '薪资天花板'],
   },
   {
@@ -1389,7 +1389,7 @@ export const majors: Major[] = [
     careerProspects: '就业面极广，互联网大厂、银行IT、国企信息化部门等。数二+英二比学硕难度低一档。',
     suitableFor: '适合计算机本科或跨考生、希望更快就业的考生。专硕性价比高。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '计算机', '数学二', '就业广', '408统考'],
   },
   {
@@ -1400,7 +1400,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入互联网和软件企业。相比计算机学硕更侧重工程管理。',
     suitableFor: '适合有编程基础、偏好工程实践的考生。数二较友好。',
     techLevel: 4, crossExamDifficulty: 3, competitionHeat: 4,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '软件', '数学二', '互联网', '性价比高'],
   },
   {
@@ -1411,7 +1411,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入生物医药企业、CRO/CDMO企业、医疗器械公司、生物技术创业公司等。生物医药是科创板最大的上市公司群体。',
     suitableFor: '适合生物工程、药学、生物技术等相关本科背景的考生。数二相对友好，部分院校不考数学。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '工学专硕：273（A区）/ 263（B区）', nationalLine2025: '工学专硕：260（A区）/ 250（B区）',
+    nationalLine2025: '工学专硕：273（A区）/ 263（B区）', nationalLine2026: '工学专硕：260（A区）/ 250（B区）',
     tags: ['工科专硕', '生物医药', '基因治疗', '生物工程', '科创板'],
   },
 
@@ -1424,7 +1424,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入种子/种苗企业、设施农业公司、园林绿化企业、农业科技园区等。都市农业和垂直农场是新型就业方向。',
     suitableFor: '适合对植物和园艺生产有兴趣的考生。国家线最低，竞争小。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '园艺', '国家线最低', '设施农业', '竞争小'],
   },
   {
@@ -1435,7 +1435,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入农业环保部门、土壤修复企业、肥料企业、农业碳汇交易机构等。双碳战略推动农业资源环境人才需求。',
     suitableFor: '适合对土壤、环境、可持续农业有兴趣的考生。国家线最低，交叉学科属性强。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '土壤', '环保', '碳中和', '国家线最低'],
   },
   {
@@ -1446,7 +1446,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入海关检疫、农技推广中心、农药企业研发、生防公司等。生物防治和绿色农药是朝阳产业。',
     suitableFor: '适合对植物疾病和昆虫有兴趣的考生。竞争极小，海关检疫是体制内就业好去处。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '植保', '检疫', '生物农药', '竞争极小'],
   },
   {
@@ -1457,7 +1457,7 @@ export const majors: Major[] = [
     careerProspects: '宠物医疗行业市场规模超千亿，宠物医生薪资快速上涨。毕业生也可进入检验检疫、疫苗企业、养殖集团等。',
     suitableFor: '适合对动物疾病诊疗有兴趣的考生。宠物经济持续增长，兽医社会地位和收入都在提高。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '兽医', '宠物经济', '不考数学', '高增长赛道'],
   },
   {
@@ -1468,7 +1468,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入林业部门、自然保护区、园林绿化公司、碳汇交易机构等。林业碳汇是新增长点。',
     suitableFor: '适合对森林生态和自然保护有兴趣的考生。国家线最低，体制内岗位较多。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '林业', '碳中和', '体制内', '竞争极小'],
   },
   {
@@ -1479,7 +1479,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入水产养殖企业、渔业管理部门、水产饲料企业、海洋水产研究所等。深远海养殖和水产品深加工是增长方向。',
     suitableFor: '适合对水生生物和水产养殖有兴趣的考生。国家线最低，竞争极小。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '水产', '渔业', '国家线最低', '竞争极小'],
   },
   {
@@ -1490,7 +1490,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入草原管理部门、高尔夫球场/运动草坪管理、生态修复企业、种业公司等。运动草坪经理和生态修复工程师是新职业方向。',
     suitableFor: '适合对草地生态和草坪管理有兴趣的考生。竞争极小，全国招生院校少但就业独特。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '草业', '生态修复', '草坪', '竞争极小'],
   },
   {
@@ -1501,7 +1501,7 @@ export const majors: Major[] = [
     careerProspects: '毕业后可考取执业兽医资格证。宠物医院、养殖集团、检验检疫部门、兽药企业等。宠物经济赛道持续火热。',
     suitableFor: '适合动物医学/畜牧兽医背景的考生。不考数学，实践导向强。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '兽医：251（A区）/ 241（B区）', nationalLine2025: '兽医：245（A区）/ 235（B区）',
+    nationalLine2025: '兽医：251（A区）/ 241（B区）', nationalLine2026: '兽医：245（A区）/ 235（B区）',
     tags: ['农学专硕', '兽医', '宠物医疗', '不考数学', '执业兽医'],
   },
   {
@@ -1512,7 +1512,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入林业部门、园林规划公司、碳汇机构、自然保护区、生态旅游公司等。碳达峰碳中和对林业人才需求持续增加。',
     suitableFor: '适合对环境生态和森林资源有兴趣的考生。国家线最低，竞争极小。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '林业：251（A区）/ 241（B区）', nationalLine2025: '林业：245（A区）/ 235（B区）',
+    nationalLine2025: '林业：251（A区）/ 241（B区）', nationalLine2026: '林业：245（A区）/ 235（B区）',
     tags: ['农学专硕', '林业', '碳汇', '生态', '竞争极小'],
   },
 
@@ -1525,7 +1525,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入农业科研院所、种业公司、农业科技公司、农技推广部门等。生物育种是国家级战略方向。',
     suitableFor: '适合对农业科研和作物育种有兴趣的考生。国家线是所有门类中最低之一。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '国家线最低', '种业战略', '智慧农业', '竞争小'],
   },
   {
@@ -1536,7 +1536,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入畜牧兽医部门、饲料企业、养殖集团、生物技术公司等。大型养殖企业技术岗位薪资不低。',
     suitableFor: '适合对动物科学有兴趣的考生。竞争极小，国家线低，上岸成功率非常高。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '农学：251（A区）/ 241（B区）', nationalLine2025: '农学：245（A区）/ 235（B区）',
+    nationalLine2025: '农学：251（A区）/ 241（B区）', nationalLine2026: '农学：245（A区）/ 235（B区）',
     tags: ['农学', '畜牧', '国家线最低', '竞争极小', '生物工程'],
   },
   {
@@ -1547,7 +1547,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入农业政府部门、农业科技公司、食品企业、农村金融机构等。乡村振兴战略带来政策红利。',
     suitableFor: '适合对三农问题有兴趣、希望进入体制内或农业相关企业的考生。国家线最低，竞争小。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 2,
-    nationalLine2024: '农业：251（A区）/ 241（B区）', nationalLine2025: '农业：245（A区）/ 235（B区）',
+    nationalLine2025: '农业：251（A区）/ 241（B区）', nationalLine2026: '农业：245（A区）/ 235（B区）',
     tags: ['农学', '国家线低', '乡村振兴', '竞争较小', '政策红利'],
   },
 
@@ -1560,7 +1560,7 @@ export const majors: Major[] = [
     careerProspects: '口腔医生收入在医生群体中名列前茅。民营口腔诊所连锁化趋势明显，口腔种植和正畸是两大高利润方向。',
     suitableFor: '仅限口腔医学本科报考。属高壁垒、高回报专业。',
     techLevel: 4, crossExamDifficulty: 5, competitionHeat: 5,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '口腔', '高薪', '限制跨考', '竞争激烈'],
   },
   {
@@ -1571,7 +1571,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入疾控中心、卫健委、海关检疫、药企医学部、CRO公司等。公共卫生体系补短板创造了大量高质量体制内岗位。',
     suitableFor: '适合对人群健康和疾病预防有兴趣的考生。部分方向接收非医学背景跨考（如统计学本科→卫生统计学）。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '公共卫生', '疾控', '不考数学', '疫情后扩张'],
   },
   {
@@ -1582,7 +1582,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入中西医结合医院、综合医院中医科、中医药企业、健康管理机构等。中西医结合在慢病管理和康复领域需求增长。',
     suitableFor: '适合中医或西医本科、对中西医融合有兴趣的考生。学科交叉属性强。',
     techLevel: 3, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '中西医结合', '不考数学', '中国特色', '慢病管理'],
   },
   {
@@ -1593,7 +1593,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入药企研发中心、CRO公司、药检所、科研院所等。学硕在研发岗位和读博方面比专硕更有优势。',
     suitableFor: '适合药学、化学、生物等相关本科、对药物研发有兴趣的考生。不考数学，但专业课化学和生物覆盖面广。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '药学学硕', '不考数学', '药物研发', '科研导向'],
   },
   {
@@ -1604,7 +1604,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入中药企业研发、中药房调剂、中医药管理部门、中药保健品企业等。中药现代化和国际化是长期趋势。',
     suitableFor: '适合中药学或药学背景的考生。国家中医药利好政策不断，行业发展确定性高。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '中药', '不考数学', '政策利好', '中国特色'],
   },
   {
@@ -1615,7 +1615,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入航空航天医学中心、海军医学研究所、高原医学机构、运动队医团队等。是医学中最具特色和稀缺性的方向。',
     suitableFor: '适合对特殊环境医学有兴趣、不排斥在特殊岗位工作的考生。就业壁垒高但非常稳定。',
     techLevel: 3, crossExamDifficulty: 3, competitionHeat: 1,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '特种医学', '航空航天', '稀缺', '竞争小'],
   },
   {
@@ -1626,7 +1626,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入医院检验科、影像科、康复科，以及体外诊断企业、医疗设备公司等。精准医疗和AI影像推动行业升级。',
     suitableFor: '适合医学技术本科或对医疗技术有兴趣的理工科考生。部分方向（如影像技术、检验技术）就业竞争力强。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '医学技术', '检验', '影像', '不考数学'],
   },
   {
@@ -1637,7 +1637,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校护理学院任教、三甲医院护理部管理岗、高端养老机构等。护理硕博在高校教职竞争中优势明显。',
     suitableFor: '适合护理学本科、希望走学术或管理路线的考生。学硕适合有志于读博深造者。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '护理学硕', '不考数学', '老龄化', '学术导向'],
   },
   {
@@ -1648,7 +1648,7 @@ export const majors: Major[] = [
     careerProspects: '四证合一后进入各级医院从事临床工作，职业稳定性和社会地位极高。但学习强度大，3年专硕=学习+规培同时进行。',
     suitableFor: '仅限临床医学本科毕业生。四证合一是医生职业路径的"独木桥"。',
     techLevel: 4, crossExamDifficulty: 5, competitionHeat: 5,
-    nationalLine2024: '医学专硕：304（A区）/ 294（B区）', nationalLine2025: '医学专硕：293（A区）/ 283（B区）',
+    nationalLine2025: '医学专硕：304（A区）/ 294（B区）', nationalLine2026: '医学专硕：293（A区）/ 283（B区）',
     tags: ['医学专硕', '临床', '四证合一', '限制跨考', '306西医综合'],
   },
   {
@@ -1659,7 +1659,7 @@ export const majors: Major[] = [
     careerProspects: '四证合一后进入口腔医院或开设口腔诊所。正畸和种植是收入最高的牙科方向。民营口腔为口腔医生提供了体制外高收入路径。',
     suitableFor: '仅限口腔医学本科。高壁垒、高回报。',
     techLevel: 4, crossExamDifficulty: 5, competitionHeat: 5,
-    nationalLine2024: '医学专硕：304（A区）/ 294（B区）', nationalLine2025: '医学专硕：293（A区）/ 283（B区）',
+    nationalLine2025: '医学专硕：304（A区）/ 294（B区）', nationalLine2026: '医学专硕：293（A区）/ 283（B区）',
     tags: ['医学专硕', '口腔', '四证合一', '高薪', '限制跨考'],
   },
   {
@@ -1670,7 +1670,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入疾控中心、卫健委、海关、社区卫生服务中心等。公卫体系扩编潮下体制内岗位供给充足。',
     suitableFor: '适合医学或相关背景、希望进入公共卫生体系的考生。部分方向对跨考生相对友好。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '医学专硕：304（A区）/ 294（B区）', nationalLine2025: '医学专硕：293（A区）/ 283（B区）',
+    nationalLine2025: '医学专硕：304（A区）/ 294（B区）', nationalLine2026: '医学专硕：293（A区）/ 283（B区）',
     tags: ['医学专硕', '公共卫生', 'MPH', '体制内', '不考数学'],
   },
   {
@@ -1681,7 +1681,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入中药生产企业、中药饮片厂、中药保健品公司、中药电商平台等。中药大健康产业规模持续增长。',
     suitableFor: '适合中药学或药学背景、对中药产业化有兴趣的考生。不考数学，竞争适中。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '医学专硕：304（A区）/ 294（B区）', nationalLine2025: '医学专硕：293（A区）/ 283（B区）',
+    nationalLine2025: '医学专硕：304（A区）/ 294（B区）', nationalLine2026: '医学专硕：293（A区）/ 283（B区）',
     tags: ['医学专硕', '中药', '不考数学', '大健康', '产业化'],
   },
   {
@@ -1692,7 +1692,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入三甲医院检验科/影像科/康复科、体外诊断企业、高端医疗设备公司等。精准医疗增加对高端医学技术人才的需求。',
     suitableFor: '适合医学技术本科或相关背景的考生。AI+医疗影像和基因检测是未来方向。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '医学专硕：304（A区）/ 294（B区）', nationalLine2025: '医学专硕：293（A区）/ 283（B区）',
+    nationalLine2025: '医学专硕：304（A区）/ 294（B区）', nationalLine2026: '医学专硕：293（A区）/ 283（B区）',
     tags: ['医学专硕', '医学技术', '检验', '影像', '不考数学'],
   },
   {
@@ -1703,7 +1703,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入中西医结合医院、综合医院中医科、康复医院等。中西医结合在慢病、肿瘤、术后康复等场景中需求持续增长。',
     suitableFor: '适合中医或西医临床本科。部分院校接受跨考生。',
     techLevel: 3, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '医学专硕：304（A区）/ 294（B区）', nationalLine2025: '医学专硕：293（A区）/ 283（B区）',
+    nationalLine2025: '医学专硕：304（A区）/ 294（B区）', nationalLine2026: '医学专硕：293（A区）/ 283（B区）',
     tags: ['医学专硕', '中西医结合', '不考数学', '康复', '慢病管理'],
   },
 
@@ -1716,7 +1716,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入医学院校任教、科研院所、生物医药企业研发部门等。相比临床，基础医学更偏科研。',
     suitableFor: '适合对医学研究有兴趣、不排斥实验工作的考生。部分方向接收非医学背景跨考。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '不考数学', '基础科研', '生物医药', '跨考可能'],
   },
   {
@@ -1727,7 +1727,7 @@ export const majors: Major[] = [
     careerProspects: '临床医学硕士毕业后进入各级医院从事临床工作，是医生职业发展的必经之路。四证合一含金量极高。',
     suitableFor: '仅限临床医学本科毕业生报考。学习周期长，但职业稳定性和社会地位高。',
     techLevel: 3, crossExamDifficulty: 5, competitionHeat: 4,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '不考数学', '306西医综合', '限制跨考', '四证合一'],
   },
   {
@@ -1738,7 +1738,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入中医院、中西医结合医院、中医药企业、中医养生机构等。国家政策持续利好中医药。',
     suitableFor: '适合中医学本科或对中医有浓厚兴趣的考生。307中医综合是全国统考，备考方向明确。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '中医', '307中医综合', '政策利好', '文化传承'],
   },
   {
@@ -1749,7 +1749,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入药企研发部门、医院药房、药品监管机构、CRO公司等。生物制药和创新药研发方向薪资较高。',
     suitableFor: '适合药学、化学、生物等相关本科专业的考生。不考数学，但专业课覆盖化学和生物内容多。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '医学专硕：304（A区）/ 294（B区）', nationalLine2025: '医学专硕：293（A区）/ 283（B区）',
+    nationalLine2025: '医学专硕：304（A区）/ 294（B区）', nationalLine2026: '医学专硕：293（A区）/ 283（B区）',
     tags: ['医学', '不考数学', '药学综合', '医药产业', '生物制药'],
   },
   {
@@ -1760,7 +1760,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入三甲医院担任护理管理者、护理学院教师、高端养老机构等。护理硕士在职场晋升中优势明显。',
     suitableFor: '适合护理学本科、希望提升学历和管理能力的考生。社会老龄化下需求持续增长。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '医学：304（A区）/ 294（B区）', nationalLine2025: '医学：293（A区）/ 283（B区）',
+    nationalLine2025: '医学：304（A区）/ 294（B区）', nationalLine2026: '医学：293（A区）/ 283（B区）',
     tags: ['医学', '护理', '不考数学', '老龄化需求', '晋升优势'],
   },
 
@@ -1773,7 +1773,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入文旅部门、旅游规划公司、大型酒店集团、OTA平台（携程/美团）、会展公司等。智慧旅游和高端定制游是新增长点。',
     suitableFor: '适合对旅游产业有兴趣的考生。部分院校可接受跨考。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 2,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '旅游', '数学三', '文旅融合', 'OTA'],
   },
   {
@@ -1784,7 +1784,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入科技企业战略部门、风投/PE、政府科技管理部门、咨询公司等。是管理学中最适合理工科跨考的方向。',
     suitableFor: '适合理工科背景、对技术商业化和创新创业有兴趣的考生。交叉学科属性强，就业独特。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '技术经济', '创新创业', '交叉学科', 'VC/PE'],
   },
   {
@@ -1795,7 +1795,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入高校图书馆、公共图书馆、情报所、文化馆等。体制内岗位为主，工作环境好，压力适中。',
     suitableFor: '适合喜欢安静工作环境、对信息组织和文化服务有兴趣的考生。不考数学，竞争较小。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '图书馆', '体制内', '不考数学', '竞争小'],
   },
   {
@@ -1806,7 +1806,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入各级档案馆、机关单位档案室、企业档案中心、档案信息化企业等。公务员和事业单位岗位占比极高。',
     suitableFor: '适合细心、有条理、对信息整理有兴趣的考生。不考数学，考公考编对口岗位多。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 1,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '档案', '体制内', '不考数学', '考公对口'],
   },
   {
@@ -1817,7 +1817,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入文旅集团、高端酒店管理公司、OTA平台、会展公司、文旅政府部门等。旅游业复苏和转型升级提供就业增量。',
     suitableFor: '通常要求工作经验（部分院校对应届生开放）。管理类联考数学简单。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: 'MTA：162/39/78（A区）', nationalLine2025: 'MTA：151/35/70（A区）',
+    nationalLine2025: 'MTA：162/39/78（A区）', nationalLine2026: 'MTA：151/35/70（A区）',
     tags: ['管理学专硕', '旅游', '管理类联考', 'MTA', '需工作经验'],
   },
   {
@@ -1828,7 +1828,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入数据分析公司、互联网企业信息架构部门、图书馆、情报所等。199联考无高等数学，跨考门槛低。',
     suitableFor: '适合对信息管理和数据分析有兴趣但不想考高等数学的考生。是管理类联考中竞争相对较小的方向。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 3,
-    nationalLine2024: '图书情报：198/51/102（A区）', nationalLine2025: '图书情报：191/48/96（A区）',
+    nationalLine2025: '图书情报：198/51/102（A区）', nationalLine2026: '图书情报：191/48/96（A区）',
     tags: ['管理学专硕', '图书情报', '管理类联考', '数据分析', '跨考友好'],
   },
   {
@@ -1839,7 +1839,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要在党政机关、事业单位、国企从事管理和政策研究工作，是体制内人员学历提升的最主要途径。部分院校应届生可报考全日制MPA。',
     suitableFor: '适合有志于公共管理和公务员事业的考生。通常要求本科毕业满3年（非全），少数院校全日制对应届生开放。199联考数学难度低。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: 'MPA：173/43/86（A区）', nationalLine2025: 'MPA：164/41/82（A区）',
+    nationalLine2025: 'MPA：173/43/86（A区）', nationalLine2026: 'MPA：164/41/82（A区）',
     tags: ['管理学专硕', 'MPA', '管理类联考', '公务员', '体制内深造'],
   },
 
@@ -1852,7 +1852,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入互联网大厂、金融机构、咨询公司从事数据分析、产品经理、战略咨询等。起薪15-25K/月（北上广深）。',
     suitableFor: '适合有管理学科背景、希望保留管理类优势同时提升技术能力的考生。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['本专业对口', '管理学', '技术+管理', '就业面广', '考数学三'],
   },
   {
@@ -1863,7 +1863,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生去向包括咨询公司、快消管培生、互联网运营、银行管培生等。是管理类中就业最广的方向之一。',
     suitableFor: '适合对企业管理、市场营销等方向有兴趣的考生。数学考数三难度适中。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 5,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '竞争激烈', '就业面广', '考数学三'],
   },
   {
@@ -1874,7 +1874,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入政府机关、事业单位、国企从事行政管理、政策研究工作。MPA是公务员提升学历的首选。',
     suitableFor: '适合有志于从事公共管理、公务员或事业单位工作的考生。部分院校不考数学，对文科跨考生友好。',
     techLevel: 1, crossExamDifficulty: 1, competitionHeat: 4,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '公务员', 'MPA', '体制内', '部分不考数学'],
   },
   {
@@ -1885,7 +1885,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校图书馆、公共图书馆、情报研究所，也可进入互联网公司做信息架构、数据分析等。体制内岗位较多。',
     suitableFor: '适合希望避开数学考试、对信息管理和数据分析有兴趣的考生。竞争相对较小。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 2,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '不考数学', '冷门潜力股', '数字化', '体制内友好'],
   },
   {
@@ -1896,7 +1896,7 @@ export const majors: Major[] = [
     careerProspects: '可在互联网企业从事数据分析、信息架构工作，在咨询公司做竞争情报分析。',
     suitableFor: '非常适合大数据管理、信息管理背景的考生，学科匹配度极高。',
     techLevel: 3, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '管理学：347（A区）/ 337（B区）', nationalLine2025: '管理学：333（A区）/ 323（B区）',
+    nationalLine2025: '管理学：347（A区）/ 337（B区）', nationalLine2026: '管理学：333（A区）/ 323（B区）',
     tags: ['管理学', '交叉学科', '技术+管理', '大数据方向', '不考数学'],
   },
   {
@@ -1907,7 +1907,7 @@ export const majors: Major[] = [
     careerProspects: 'MBA毕业生广泛分布于企业中层管理以上岗位，是职场晋升和转行的重要跳板。名校MBA学费较高（10-50万）。',
     suitableFor: '适合已有3年以上工作经验的职场人士。注重实践和案例教学。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: 'MBA：162/39/78（A区）', nationalLine2025: 'MBA：151/35/70（A区）',
+    nationalLine2025: 'MBA：162/39/78（A区）', nationalLine2026: 'MBA：151/35/70（A区）',
     tags: ['专硕', '需工作经验', '管理类联考', '人脉资源', '学费较高'],
   },
   {
@@ -1918,7 +1918,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业面极广，涵盖四大会计师事务所、银行券商、上市公司财务部门等。',
     suitableFor: '适合有较强逻辑思维能力、对财务和数字敏感的考生。竞争极其激烈。',
     techLevel: 2, crossExamDifficulty: 3, competitionHeat: 5,
-    nationalLine2024: '会计专硕：201/52/104（A区）', nationalLine2025: '会计专硕：194/48/96（A区）',
+    nationalLine2025: '会计专硕：201/52/104（A区）', nationalLine2026: '会计专硕：194/48/96（A区）',
     tags: ['专硕', '竞争最激烈', '管理类联考', '就业稳', '财务方向'],
   },
   {
@@ -1929,7 +1929,7 @@ export const majors: Major[] = [
     careerProspects: 'MEM毕业生在IT企业、制造业、金融业有较高认可度，可从事IT项目管理、数据分析管理等岗位。',
     suitableFor: '适合有一定工作经验或希望快速就业的考生。199管理类联考数学难度低，对在职考研较为友好。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '管理学专硕：176/43/86（A区）', nationalLine2025: '管理学专硕：171/41/82（A区）',
+    nationalLine2025: '管理学专硕：176/43/86（A区）', nationalLine2026: '管理学专硕：171/41/82（A区）',
     tags: ['专硕', '管理类联考', '在职友好', '实践导向', '数学简单'],
   },
 
@@ -1942,7 +1942,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校音乐/舞蹈教师、文艺团体、中小学艺术教育、音乐制作公司等。表演和教育是最主要的就业方向。',
     suitableFor: '适合有扎实音乐或舞蹈专业技能的考生。通常需要面试和专业技能展示。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术学', '音乐', '舞蹈', '不考数学', '技能要求高'],
   },
   {
@@ -1953,7 +1953,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入高校美术教师、美术馆/博物馆策展、美术评论、画廊管理等。艺术市场繁荣提供了多元化职业选择。',
     suitableFor: '适合有美术理论基础和创作能力的考生。通常需要作品集和现场专业考试。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术学', '美术', '不考数学', '作品集', '策展'],
   },
   {
@@ -1964,7 +1964,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入互联网大厂做UI/UX设计师、品牌设计公司、室内设计事务所、游戏/动画公司等。交互设计和数字媒体设计方向薪资最高。',
     suitableFor: '适合有设计基础和创意思维的考生。通常有快题设计考试和作品集要求。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术学', '设计', 'UI/UX', '不考数学', '数字创意'],
   },
   {
@@ -1975,7 +1975,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业于文艺团体、文化企业、艺术教育机构、新媒体公司等。专硕更注重实践能力，适合走创作和表演路线的考生。',
     suitableFor: '适合有较强艺术技能和创作能力的考生。通常需要作品集和现场表演/创作考试。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术专硕', '不考数学', '创作型', '表演', '作品集'],
   },
   {
@@ -1986,7 +1986,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可成为职业音乐家、高校/中小学音乐教师、音乐制作人、录音师等。音乐培训市场规模超千亿。',
     suitableFor: '适合有扎实音乐表演技能的考生。现场专业考试是录取关键。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术专硕', '音乐', '表演', '不考数学', '技能型'],
   },
   {
@@ -1997,7 +1997,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入专业舞团成为职业舞者、高校舞蹈教师、舞蹈培训机构、舞蹈治疗中心等。舞蹈培训市场和教育需求持续增长。',
     suitableFor: '适合有扎实舞蹈专业技能的考生。对身体条件和技能水平要求高。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术专硕', '舞蹈', '表演', '不考数学', '专业技能'],
   },
   {
@@ -2008,7 +2008,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生进入电视台、视频平台（爱奇艺/腾讯视频/B站）、MCN机构、节目制作公司等。内容产业的持续繁荣带来了大量高质量岗位。',
     suitableFor: '适合对影视和传媒行业有兴趣、有创意和沟通能力的考生。面试环节重要。',
     techLevel: 2, crossExamDifficulty: 1, competitionHeat: 3,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术专硕', '广播电视', '新媒体', '不考数学', '内容产业'],
   },
   {
@@ -2019,7 +2019,7 @@ export const majors: Major[] = [
     careerProspects: '互联网大厂UI/UX设计师、品牌设计公司、建筑与室内设计事务所、游戏公司美术等。交互设计和体验设计师薪资水平在艺术类中最高。',
     suitableFor: '适合有设计基础和创意思维的考生。快题设计和作品集是录取关键。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 4,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术专硕', '设计', 'UI/UX', '不考数学', '作品集'],
   },
 
@@ -2032,7 +2032,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入美术馆、博物馆、画廊、拍卖行、艺术媒体、文化部门等工作。文化产业管理方向就业前景较好。',
     suitableFor: '适合对艺术有浓厚兴趣、有较好审美能力和文字功底的考生。不考数学。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术学', '不考数学', '文化产业', '美术馆', '国家线较高'],
   },
   {
@@ -2043,7 +2043,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入影视公司、电视台、MCN机构、广告公司等。数字媒体方向在新媒体行业需求很大。',
     suitableFor: '适合有创意和创作欲望、对影视和新媒体行业有兴趣的考生。多数需要面试和作品集。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术专硕', '不考数学', '影视', '作品集', '新媒体'],
   },
   {
@@ -2054,7 +2054,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可成为职业艺术家、美术教师、美术馆策展人、拍卖行鉴定师、自由设计师等。',
     suitableFor: '适合有较扎实的美术/书法技能和创作能力的考生。通常需要本科学位+作品集+现场考试。',
     techLevel: 1, crossExamDifficulty: 2, competitionHeat: 2,
-    nationalLine2024: '艺术学：362（A区）/ 352（B区）', nationalLine2025: '艺术学：351（A区）/ 341（B区）',
+    nationalLine2025: '艺术学：362（A区）/ 352（B区）', nationalLine2026: '艺术学：351（A区）/ 341（B区）',
     tags: ['艺术专硕', '不考数学', '美术', '书法', '创作型'],
   },
 
@@ -2067,7 +2067,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要面向军队、武警部队、国防部门等。军硕通常与军衔晋升挂钩。',
     suitableFor: '主要面向现役军人及军校本科毕业生。普通高校考生需满足军校招生的特殊条件。',
     techLevel: 2, crossExamDifficulty: 4, competitionHeat: 1,
-    nationalLine2024: '军事学：260（A区）/ 250（B区）', nationalLine2025: '军事学：252（A区）/ 242（B区）',
+    nationalLine2025: '军事学：260（A区）/ 250（B区）', nationalLine2026: '军事学：252（A区）/ 242（B区）',
     tags: ['军事学', '军人优先', '不考数学', '特殊招生', '国家线低'],
   },
 
@@ -2080,7 +2080,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生可进入半导体企业、新材料公司、新能源企业、生物医药企业等。纳米技术是新材料的核心支撑。交叉学科门类国家线最低之一。',
     suitableFor: '适合物理、化学、材料、电子等理工科背景的考生。科研导向强，适合有志于读博深造者。',
     techLevel: 5, crossExamDifficulty: 3, competitionHeat: 2,
-    nationalLine2024: '交叉学科：275（A区）/ 265（B区）', nationalLine2025: '交叉学科：266（A区）/ 256（B区）',
+    nationalLine2025: '交叉学科：275（A区）/ 265（B区）', nationalLine2026: '交叉学科：266（A区）/ 256（B区）',
     tags: ['交叉学科', '纳米', '新材料', '前沿科技', '科研导向'],
   },
   {
@@ -2091,7 +2091,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生主要进入国家安全部门、公安系统、网信部门、机要保密单位等体制内核心岗位。是体制内就业最对口的新兴交叉学科。',
     suitableFor: '适合有志于国家安全事业、具备多学科背景的考生。新兴学科竞争尚未白热化。',
     techLevel: 2, crossExamDifficulty: 2, competitionHeat: 3,
-    nationalLine2024: '交叉学科：275（A区）/ 265（B区）', nationalLine2025: '交叉学科：266（A区）/ 256（B区）',
+    nationalLine2025: '交叉学科：275（A区）/ 265（B区）', nationalLine2026: '交叉学科：266（A区）/ 256（B区）',
     tags: ['交叉学科', '国家安全', '体制内', '新兴学科', '不考数学'],
   },
 
@@ -2104,7 +2104,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生具备多学科综合能力，可从事数据科学家、AI工程师、商业分析师等高薪岗位。',
     suitableFor: '适合愿意接受新事物、有跨学科学习意愿的考生。大数据管理背景的同学有天然优势。',
     techLevel: 5, crossExamDifficulty: 3, competitionHeat: 3,
-    nationalLine2024: '交叉学科：275（A区）/ 265（B区）', nationalLine2025: '交叉学科：266（A区）/ 256（B区）',
+    nationalLine2025: '交叉学科：275（A区）/ 265（B区）', nationalLine2026: '交叉学科：266（A区）/ 256（B区）',
     tags: ['新兴学科', '跨学科', '大数据', '灵活性高', '蓝海方向'],
   },
   {
@@ -2115,7 +2115,7 @@ export const majors: Major[] = [
     careerProspects: '芯片行业是国家战略方向，人才缺口极大。毕业生起薪25-40K/月，资深芯片设计工程师年薪百万。',
     suitableFor: '适合有较强物理和电子学基础、对芯片设计有兴趣的考生。是最具战略价值的新兴学科之一。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 3,
-    nationalLine2024: '交叉学科：275（A区）/ 265（B区）', nationalLine2025: '交叉学科：266（A区）/ 256（B区）',
+    nationalLine2025: '交叉学科：275（A区）/ 265（B区）', nationalLine2026: '交叉学科：266（A区）/ 256（B区）',
     tags: ['芯片', '国家战略', '交叉学科', '人才缺口大', '薪资高'],
   },
   {
@@ -2126,7 +2126,7 @@ export const majors: Major[] = [
     careerProspects: '毕业生就业于AI公司、互联网大厂、自动驾驶企业、机器人公司等前沿科技企业。薪资在工科中位列前茅。',
     suitableFor: '适合对AI和智能系统有强烈兴趣、数理和编程基础较好的考生。是最前沿的交叉学科。',
     techLevel: 5, crossExamDifficulty: 4, competitionHeat: 4,
-    nationalLine2024: '交叉学科：275（A区）/ 265（B区）', nationalLine2025: '交叉学科：266（A区）/ 256（B区）',
+    nationalLine2025: '交叉学科：275（A区）/ 265（B区）', nationalLine2026: '交叉学科：266（A区）/ 256（B区）',
     tags: ['AI', '交叉学科', '前沿科技', '类脑智能', '高薪'],
   },
 ];

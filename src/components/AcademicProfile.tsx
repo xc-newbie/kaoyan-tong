@@ -31,9 +31,10 @@ function getCompTypes(cat: DisciplineCategory | null): string[] {
     case 'engineering': return ['ACM-ICPC/CCPC', '数学建模（国赛）', '数学建模（美赛）', '蓝桥杯', '互联网+', '挑战杯', 'Kaggle/数据竞赛', '黑客马拉松', '全国大学生数学竞赛', '电子设计大赛', '机器人大赛', '天池大数据竞赛', '其他竞赛'];
     case 'science': return ['数学建模（国赛）', '数学建模（美赛）', '全国大学生数学竞赛', '全国大学生化学实验竞赛', '全国大学生生命科学竞赛', 'iGEM国际遗传工程大赛', '挑战杯', '互联网+', '全国大学生物理实验竞赛', '其他竞赛'];
     case 'medical': return ['全国大学生基础医学创新论坛', '临床技能大赛', '药学/中药学专业技能大赛', '挑战杯', '大学生医学技术技能大赛', '护理技能大赛', '公共卫生案例大赛', '其他竞赛'];
-    case 'liberalArts': case 'law': case 'education': return ['全国大学生英语竞赛', '全国大学生广告艺术大赛', '外研社杯英语演讲/辩论', '辩论赛', '模拟法庭', '师范生教学技能竞赛', '挑战杯', '互联网+', '其他竞赛'];
+    case 'liberalArts': case 'law': case 'education': case 'philosophy': case 'history': return ['全国大学生英语竞赛', '全国大学生广告艺术大赛', '外研社杯英语演讲/辩论', '辩论赛', '模拟法庭', '师范生教学技能竞赛', '挑战杯', '互联网+', '其他竞赛'];
     case 'management': case 'economics': return ['挑战杯', '互联网+', '全国大学生创业综合模拟大赛', 'ERP沙盘模拟', '市场调查与分析大赛', 'CFA全球投资分析大赛', '数学建模（国赛）', '全国大学生英语竞赛', '其他竞赛'];
     case 'agriculture': return ['全国大学生生命科学竞赛', '挑战杯', '互联网+', '植物/动物科学技能大赛', '全国大学生农学创新大赛', '生物竞赛', '其他竞赛'];
+    case 'art': return ['全国大学生艺术展演', '全国美展', '设计大赛', '音乐/舞蹈/戏剧比赛', '电影节/短片大赛', '挑战杯', '互联网+', '其他竞赛'];
     default: return ['ACM-ICPC/CCPC', '数学建模（国赛）', '数学建模（美赛）', '互联网+', '挑战杯', '全国大学生英语竞赛', '其他竞赛'];
   }
 }
@@ -57,7 +58,7 @@ function getInternshipOptions(cat: DisciplineCategory | null): { value: Internsh
       { value: 'none', label: '无实习经历' },
     ];
   }
-  if (cat === 'liberalArts' || cat === 'law' || cat === 'education') {
+  if (cat === 'liberalArts' || cat === 'law' || cat === 'education' || cat === 'philosophy' || cat === 'history') {
     return [
       { value: 'big_tech', label: '主流媒体/知名律所/重点学校' },
       { value: 'mid_tech', label: '出版社/法务部/教育机构' },
@@ -72,6 +73,15 @@ function getInternshipOptions(cat: DisciplineCategory | null): { value: Internsh
       { value: 'mid_tech', label: '疾控中心/药企研发' },
       { value: 'small_tech', label: '医疗器械公司/社区医院' },
       { value: 'non_tech', label: '医学编辑/医药代表' },
+      { value: 'none', label: '无实习经历' },
+    ];
+  }
+  if (cat === 'art') {
+    return [
+      { value: 'big_tech', label: '知名设计公司/美术馆/院团' },
+      { value: 'mid_tech', label: '中型设计所/演出团体/策展机构' },
+      { value: 'small_tech', label: '独立工作室/艺术空间' },
+      { value: 'non_tech', label: '艺术教育/文化创意' },
       { value: 'none', label: '无实习经历' },
     ];
   }
@@ -91,10 +101,11 @@ function getExtrasOptions(cat: DisciplineCategory | null): string[] {
     case 'engineering': return ['发明专利', '软件著作权', ...common, '开源贡献/GitHub项目', '技术博客/公众号', '个人项目作品集', '线上课程证书(Coursera/慕课)'];
     case 'science': return ['发明专利', '软件著作权', ...common, '实验室技能认证', '论文预印本/在投', '田野调查/科考经验', '线上课程证书'];
     case 'medical': return ['发明专利', ...common, '临床见习经历', '执业资格备考中', '医学会议壁报', '实验室技能认证'];
-    case 'liberalArts': case 'law': return [...common, '发表文章/作品', '新媒体账号运营', '翻译作品', '实习作品集'];
+    case 'liberalArts': case 'law': case 'philosophy': case 'history': return [...common, '发表文章/作品', '新媒体账号运营', '翻译作品', '实习作品集'];
     case 'management': case 'economics': return ['发明专利', '软件著作权', ...common, '创业经历', '商业策划书', '行业分析报告'];
     case 'education': return [...common, '教师资格证备考中', '支教经历', '家教/辅导经验', '课程设计作品'];
     case 'agriculture': return ['发明专利', ...common, '田间实验经验', '养殖/种植实操', '农业相关资格证'];
+    case 'art': return [...common, '个人作品集', '参展/演出经历', '设计/创作奖项', '工作室实践'];
     default: return ['发明专利', '软件著作权', ...common];
   }
 }

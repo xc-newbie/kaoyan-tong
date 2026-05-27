@@ -27,12 +27,23 @@ function AppContent() {
       <div className="max-w-5xl mx-auto px-4 py-6">
         {/* Header */}
         <div className="sticky top-0 z-20 bg-white/85 backdrop-blur-md pt-4 -mt-4 pb-3 mb-4 border-b border-gray-100 flex items-center justify-between">
-          <h1
-            className="text-xl font-extrabold text-gray-800 cursor-pointer tracking-tight select-none"
-            onClick={goHome}
-          >
-            考研<strong className="text-indigo-600">不难</strong>
-          </h1>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={goHome}
+              className="flex items-center gap-1.5 text-sm text-gray-500 hover:text-indigo-600 bg-gray-50 hover:bg-indigo-50 border border-gray-200 hover:border-indigo-200 rounded-lg px-3 py-1.5 transition-all duration-200 font-medium"
+              title="返回首页"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+              </svg>
+              返回首页
+            </button>
+            <h1
+              className="text-xl font-extrabold text-gray-800 tracking-tight select-none"
+            >
+              考研<strong className="text-indigo-600">不难</strong>
+            </h1>
+          </div>
           {state.studyMode && (
             <div className="flex items-center gap-2">
               {savedAt && (

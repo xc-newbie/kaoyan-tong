@@ -30,7 +30,8 @@ export type RecomTier = 'reach' | 'match' | 'safety';
 // 学科大类
 export type DisciplineCategory =
   | 'management' | 'economics' | 'engineering' | 'science'
-  | 'liberalArts' | 'law' | 'education' | 'medical' | 'agriculture' | 'unknown';
+  | 'liberalArts' | 'law' | 'education' | 'medical' | 'agriculture'
+  | 'philosophy' | 'history' | 'art' | 'unknown';
 
 // ========== 用户表单数据 ==========
 export interface UserProfile {
@@ -134,8 +135,8 @@ export interface Major {
   techLevel: number;
   crossExamDifficulty: number;
   competitionHeat: number;
-  nationalLine2024: string;
   nationalLine2025: string;
+  nationalLine2026: string;
   tags: string[];
 }
 
@@ -160,18 +161,18 @@ export interface University {
 export interface ProgramDetail {
   /** 报录比，如 "8:1" */
   reportRatio: string;
+  /** 2026复试分数线 */
+  reexamScore2026: number;
   /** 2025复试分数线 */
   reexamScore2025: number;
-  /** 2024复试分数线 */
-  reexamScore2024: number;
-  /** 2025录取最低分 */
-  admitScore2025: number;
-  /** 2025计划招生人数（统考） */
-  plannedEnrollment2025: number;
-  /** 2025实际招生人数 */
-  actualEnrollment2025: number;
+  /** 2026录取最低分 */
+  admitScore2026: number;
+  /** 2026计划招生人数（统考） */
+  plannedEnrollment2026: number;
+  /** 2026实际招生人数 */
+  actualEnrollment2026: number;
   /** 推免人数 */
-  recommendedEnrollment2025: number;
+  recommendedEnrollment2026: number;
   /** 总学费（万元），学硕通常0.8，专硕视项目 */
   tuitionWan: string;
   /** 学制（年） */

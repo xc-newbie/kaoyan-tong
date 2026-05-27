@@ -33,6 +33,8 @@ const medicalCerts = [
 
 const agriCerts = ['执业兽医师', '农艺师', '园艺师', '林业工程师'];
 
+const designCerts = ['Adobe认证设计师', 'ACAA中国数字艺术设计师', 'NACG数字艺术证书', '建筑/室内设计师资格证'];
+
 const commonCerts = [
   '英语六级(550+)', '雅思/托福', '计算机二级',
   '驾驶证', '急救证',
@@ -48,8 +50,11 @@ function getCertsForCategory(cat: DisciplineCategory | null): string[] {
     case 'liberalArts': return [...libArtsCerts, ...commonCerts];
     case 'law': return [...libArtsCerts, ...commonCerts];
     case 'education': return [...libArtsCerts, ...commonCerts];
+    case 'philosophy': return [...libArtsCerts, ...commonCerts];
+    case 'history': return [...libArtsCerts, ...commonCerts];
     case 'medical': return [...medicalCerts, ...commonCerts];
     case 'agriculture': return [...agriCerts, ...commonCerts, ...bizCerts];
+    case 'art': return [...designCerts, ...commonCerts, ...libArtsCerts];
     default: return [...techCerts, ...bizCerts, ...libArtsCerts, ...commonCerts];
   }
 }
@@ -102,7 +107,7 @@ function getToolGroups(cat: DisciplineCategory | null): ToolGroup[] {
       { label: '金融数据终端（熟悉的选上）', items: financeTools, field: 'aiMl' },
       { label: '可视化 / BI 工具（熟悉的选上）', items: vizTools, field: 'visualization' },
     ];
-    case 'liberalArts': case 'law': case 'education': return [
+    case 'liberalArts': case 'law': case 'education': case 'philosophy': case 'history': return [
       { label: '写作与文献管理工具（熟悉的选上）', items: writingTools, field: 'bigData' },
       { label: '语言/翻译工具（熟悉的选上）', items: languageTools, field: 'aiMl' },
     ];
@@ -113,6 +118,10 @@ function getToolGroups(cat: DisciplineCategory | null): ToolGroup[] {
     case 'agriculture': return [
       { label: '科研与统计工具（熟悉的选上）', items: labTools.slice(0, 8), field: 'bigData' },
       { label: '数据分析工具（熟悉的选上）', items: analysisTools.slice(0, 4), field: 'visualization' },
+    ];
+    case 'art': return [
+      { label: '设计/创意工具（熟悉的选上）', items: designTools, field: 'visualization' },
+      { label: '写作与管理工具（熟悉的选上）', items: writingTools.slice(0, 4), field: 'bigData' },
     ];
     default: return [
       { label: '大数据技术栈', items: bigDataTools, field: 'bigData' },

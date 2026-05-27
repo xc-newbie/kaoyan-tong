@@ -13,7 +13,7 @@ export default function HomePage() {
         {/* Logo / Brand */}
         <div className="mb-10">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 bg-indigo-50 rounded-full border border-indigo-100">
-            <span className="text-xs font-medium text-indigo-500 tracking-wide">2026 考研</span>
+            <span className="text-xs font-medium text-indigo-500 tracking-wide">2027 考研</span>
           </div>
           <h1 className="text-6xl font-extrabold text-gray-900 mb-3 tracking-tight">
             考研<strong className="text-indigo-600">不难</strong>

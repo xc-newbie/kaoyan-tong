@@ -1,6 +1,7 @@
 import type { UserProfile, UniversityRecommendation, RecomTier } from '../types';
 import { universities } from '../data/universities';
 import { majors } from '../data/majors';
+import { getProgramDetail } from '../data/programDetails';
 
 export function getUniversityRecommendations(
   profile: Partial<UserProfile>,
@@ -56,6 +57,7 @@ export function getUniversityRecommendations(
         reason,
         pastScores,
         reportRatio: estimateReportRatio(diffScore),
+        programDetail: getProgramDetail(uni.id, majorId),
       });
     }
   }

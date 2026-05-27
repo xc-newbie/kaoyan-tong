@@ -156,6 +156,40 @@ export interface University {
   isDoubleFirst: boolean;
 }
 
+// ========== 院校-专业详细数据 ==========
+export interface ProgramDetail {
+  /** 报录比，如 "8:1" */
+  reportRatio: string;
+  /** 2025复试分数线 */
+  reexamScore2025: number;
+  /** 2024复试分数线 */
+  reexamScore2024: number;
+  /** 2025录取最低分 */
+  admitScore2025: number;
+  /** 2025计划招生人数（统考） */
+  plannedEnrollment2025: number;
+  /** 2025实际招生人数 */
+  actualEnrollment2025: number;
+  /** 推免人数 */
+  recommendedEnrollment2025: number;
+  /** 总学费（万元），学硕通常0.8，专硕视项目 */
+  tuitionWan: string;
+  /** 学制（年） */
+  durationYears: number;
+  /** 是否接受同等学力 */
+  acceptEquivalent: boolean;
+  /** 对本科院校有无限制 */
+  undergradRestriction: string;
+  /** 是否保护第一志愿 */
+  protectFirstChoice: boolean;
+  /** 复试占比（%） */
+  reexamWeight: number;
+  /** 初试科目 */
+  examNotes?: string;
+  /** 备注 */
+  remarks?: string;
+}
+
 // ========== 院校推荐结果 ==========
 export interface UniversityRecommendation {
   university: University;
@@ -166,6 +200,8 @@ export interface UniversityRecommendation {
   reason: string;
   pastScores: { year: number; score: number }[];
   reportRatio: string;
+  /** 详细数据（有则展示） */
+  programDetail?: ProgramDetail;
 }
 
 // ========== 专业推荐结果 ==========

@@ -33,7 +33,8 @@ const tierAdvice: Record<string, string> = {
 
 export default function UniversityCard({ rec }: Props) {
   const [expanded, setExpanded] = useState(false);
-  const { university, majorId, tier, matchRate, reason, pastScores, reportRatio, difficultyScore } = rec;
+  const [showDetail, setShowDetail] = useState(false);
+  const { university, majorId, tier, matchRate, reason, pastScores, reportRatio, difficultyScore, programDetail } = rec;
   const major = majors.find((m) => m.id === majorId);
   const ranking = university.subjectRankings[majorId] || '未参评';
 
@@ -219,6 +220,102 @@ export default function UniversityCard({ rec }: Props) {
                 )}
               </ul>
             </div>
+
+            {/* 详细考研数据 */}
+            {programDetail && (
+              <div className="border-t border-gray-100 pt-3 mt-3">
+                <button
+                  onClick={() => setShowDetail(!showDetail)}
+                  className="text-xs text-indigo-600 hover:text-indigo-700 font-medium flex items-center gap-1"
+                >
+                  {showDetail ? '收起数据 ▲' : '📊 查看详细考研数据 ▼'}
+                </button>
+                {showDetail && (
+                  <div className="mt-3 space-y-3">
+                    {/* 分数线 */}
+                    <div className="grid grid-cols-3 gap-2">
+                      <div className="bg-indigo-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">2025复试线</div>
+                        <div className="text-lg font-bold text-indigo-600">{programDetail.reexamScore2025}</div>
+                      </div>
+                      <div className="bg-indigo-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">2024复试线</div>
+                        <div className="text-lg font-bold text-indigo-600">{programDetail.reexamScore2024}</div>
+                      </div>
+                      <div className="bg-indigo-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">2025录取最低分</div>
+                        <div className="text-lg font-bold text-rose-600">{programDetail.admitScore2025}</div>
+                      </div>
+                    </div>
+
+                    {/* 招生数据 */}
+                    <div className="grid grid-cols-3 gap-2">
+                      <div className="bg-gray-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">计划招生</div>
+                        <div className="text-base font-semibold text-gray-700">{programDetail.plannedEnrollment2025}人</div>
+                      </div>
+                      <div className="bg-gray-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">实际招生</div>
+                        <div className="text-base font-semibold text-gray-700">{programDetail.actualEnrollment2025}人</div>
+                      </div>
+                      <div className="bg-gray-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">推免人数</div>
+                        <div className="text-base font-semibold text-gray-700">{programDetail.recommendedEnrollment2025}人</div>
+                      </div>
+                    </div>
+
+                    {/* 报录比 + 复试占比 */}
+                    <div className="grid grid-cols-2 gap-2">
+                      <div className="bg-gray-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">报录比</div>
+                        <div className="text-base font-semibold text-orange-600">{programDetail.reportRatio}</div>
+                      </div>
+                      <div className="bg-gray-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">复试占比</div>
+                        <div className="text-base font-semibold text-gray-700">{programDetail.reexamWeight}%</div>
+                      </div>
+                    </div>
+
+                    {/* 学费 + 学制 */}
+                    <div className="grid grid-cols-2 gap-2">
+                      <div className="bg-gray-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">学费</div>
+                        <div className="text-sm font-semibold text-gray-700">{programDetail.tuitionWan}</div>
+                      </div>
+                      <div className="bg-gray-50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-gray-400">学制</div>
+                        <div className="text-sm font-semibold text-gray-700">{programDetail.durationYears}年</div>
+                      </div>
+                    </div>
+
+                    {/* 关键标签 */}
+                    <div className="flex flex-wrap gap-2">
+                      <span className={`text-xs px-2 py-1 rounded-full ${programDetail.protectFirstChoice ? 'bg-emerald-50 text-emerald-600 border border-emerald-200' : 'bg-red-50 text-red-500 border border-red-200'}`}>
+                        {programDetail.protectFirstChoice ? '✓ 保护第一志愿' : '✗ 不保护一志愿'}
+                      </span>
+                      <span className={`text-xs px-2 py-1 rounded-full ${programDetail.acceptEquivalent ? 'bg-blue-50 text-blue-600 border border-blue-200' : 'bg-gray-100 text-gray-500 border border-gray-200'}`}>
+                        {programDetail.acceptEquivalent ? '接受同等学力' : '不接受同等学力'}
+                      </span>
+                      <span className="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-600 border border-gray-200">
+                        本科限制：{programDetail.undergradRestriction}
+                      </span>
+                    </div>
+
+                    {/* 备注 */}
+                    {programDetail.examNotes && (
+                      <div className="bg-blue-50 rounded-lg p-2.5 text-xs text-blue-700">
+                        <span className="font-medium">初试说明：</span>{programDetail.examNotes}
+                      </div>
+                    )}
+                    {programDetail.remarks && (
+                      <div className="bg-amber-50 rounded-lg p-2.5 text-xs text-amber-700">
+                        <span className="font-medium">补充：</span>{programDetail.remarks}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
         )}
       </div>

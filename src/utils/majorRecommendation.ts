@@ -448,6 +448,21 @@ function calcMathFit(
       (basic.mathBasis.probability || 0)) /
     3;
 
+  // 检测该专业是否使用199管理类联考（初等数学，无高等数学）
+  const is199Major = major.examSubjects.math.includes('199') ||
+    major.examSubjects.math.includes('管理类联考') ||
+    major.tags.some(t => t === '管理类联考');
+
+  // 199联考专业：数学门槛极低，初等数学即可，不扣分反而加分
+  if (is199Major) {
+    return { score: 3, reason: '该专业考199管理类联考，数学为初等难度，无高等数学门槛' };
+  }
+
+  // 不考数学的专业
+  if (major.examSubjects.math.includes('不考数学')) {
+    return { score: 0, reason: '该专业不考数学，可聚焦专业课复习' };
+  }
+
   if (major.competitionHeat >= 5 && avgMath < 2.5) {
     return { score: -10, reason: '该专业竞争激烈，建议先强化数学基础' };
   }

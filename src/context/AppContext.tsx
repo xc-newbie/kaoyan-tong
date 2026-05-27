@@ -1,10 +1,30 @@
-import React, { createContext, useContext, useReducer, type ReactNode } from 'react';
+import React, { createContext, useContext, useReducer, useEffect, type ReactNode } from 'react';
 import type { AppState, AppStep, StudyMode, UserProfile, DisciplineCategory } from '../types';
 import { calculateEvaluation } from '../utils/scoring';
 import { getMajorRecommendations } from '../utils/majorRecommendation';
 import { getUniversityRecommendations } from '../utils/recommendation';
 import { generateStudyPlan } from '../utils/studyPlanGenerator';
 import { detectMajorCategory } from '../data/majors';
+
+const STORAGE_KEY = 'kaoyan-tong-state';
+
+function loadState(): AppState | null {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object') return null;
+    return parsed as AppState;
+  } catch {
+    return null;
+  }
+}
+
+function saveState(state: AppState) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ ...state, _savedAt: Date.now() }));
+  } catch { /* quota exceeded or private browsing */ }
+}
 
 type Action =
   | { type: 'SET_STUDY_MODE'; payload: StudyMode }
@@ -39,7 +59,6 @@ function reducer(state: AppState, action: Action): AppState {
       return { ...state, step: action.payload };
 
     case 'UPDATE_BASIC_INFO': {
-      // 根据本科专业检测所属大类
       const category = detectMajorCategory(action.payload.major) as DisciplineCategory | null;
       return {
         ...state,
@@ -105,19 +124,48 @@ function reducer(state: AppState, action: Action): AppState {
       return { ...state, studyPlan, step: 'studyPlan' };
     }
 
-    case 'RESET':
+    case 'RESET': {
+      try { localStorage.removeItem(STORAGE_KEY); } catch {}
       return initialState;
+    }
 
     default:
       return state;
   }
 }
 
-const AppCtx = createContext<{ state: AppState; dispatch: React.Dispatch<Action> } | null>(null);
+function reducerWithPersist(state: AppState, action: Action): AppState {
+  const newState = reducer(state, action);
+  if (newState !== state) {
+    saveState(newState);
+  }
+  return newState;
+}
+
+const AppCtx = createContext<{ state: AppState; dispatch: React.Dispatch<Action>; savedAt: number | null } | null>(null);
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  const [state, dispatch] = useReducer(reducer, initialState);
-  return <AppCtx.Provider value={{ state, dispatch }}>{children}</AppCtx.Provider>;
+  const [state, dispatch] = useReducer(reducerWithPersist, null, () => loadState() || initialState);
+  const savedAt = (state as any)._savedAt ?? null;
+
+  // Sync across tabs
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === STORAGE_KEY && e.newValue) {
+        try {
+          const parsed = JSON.parse(e.newValue);
+          if (parsed && parsed.step && parsed.step !== state.step) {
+            // State changed in another tab — reload to avoid conflicts
+            window.location.reload();
+          }
+        } catch {}
+      }
+    };
+    window.addEventListener('storage', onStorage);
+    return () => window.removeEventListener('storage', onStorage);
+  }, [state.step]);
+
+  return <AppCtx.Provider value={{ state, dispatch, savedAt }}>{children}</AppCtx.Provider>;
 }
 
 export function useAppState() {

@@ -12,7 +12,7 @@ import UniversityBrowser from './components/UniversityBrowser';
 import AdmissionAnalysis from './components/AdmissionAnalysis';
 
 function AppContent() {
-  const { state, dispatch } = useAppState();
+  const { state, dispatch, savedAt } = useAppState();
 
   const showSteps = !['home', 'majorRecommendation', 'results', 'studyPlan', 'universityBrowser', 'admissionAnalysis'].includes(state.step);
 
@@ -34,13 +34,21 @@ function AppContent() {
             考研<strong className="text-indigo-600">不难</strong>
           </h1>
           {state.studyMode && (
-            <span className={`text-xs px-3 py-1.5 rounded-full font-medium ${
-              state.studyMode === 'fulltime'
-                ? 'bg-indigo-50 text-indigo-600 border border-indigo-100'
-                : 'bg-orange-50 text-orange-600 border border-orange-100'
-            }`}>
-              {state.studyMode === 'fulltime' ? '脱产备考' : '在职备考'}
-            </span>
+            <div className="flex items-center gap-2">
+              {savedAt && (
+                <span className="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 inline-block" />
+                  已保存
+                </span>
+              )}
+              <span className={`text-xs px-3 py-1.5 rounded-full font-medium ${
+                state.studyMode === 'fulltime'
+                  ? 'bg-indigo-50 text-indigo-600 border border-indigo-100'
+                  : 'bg-orange-50 text-orange-600 border border-orange-100'
+              }`}>
+                {state.studyMode === 'fulltime' ? '脱产备考' : '在职备考'}
+              </span>
+            </div>
           )}
         </div>
 
